@@ -1,0 +1,779 @@
+/* Tailwind CSS - loaded from CDN */
+
+/* Custom styles */
+.prompt-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1.5rem;
+    width: 100%;
+    align-items: start;
+}
+
+/* Page button hover actions */
+.page-btn-container {
+    margin-right: 0.5rem;
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+.page-action-buttons {
+    pointer-events: none;
+    position: absolute;
+    top: -1.75rem;
+    /* Position above the button */
+    right: 0;
+    flex-direction: row-reverse;
+    /* Reverse order so rename is on left, delete on right */
+    gap: 0.5rem;
+}
+
+.page-btn-container:hover .page-action-buttons {
+    pointer-events: auto;
+}
+
+.page-action-buttons button {
+    pointer-events: auto;
+}
+
+/* Category collapse/expand */
+.prompt-grid.collapsed {
+    display: none;
+}
+
+/* Note field styling */
+.note-container {
+    min-height: 24px;
+}
+
+.note-text {
+    max-width: calc(100% - 50px);
+}
+
+.note-edit-btn {
+    flex-shrink: 0;
+}
+
+/* Layout modes - Horizontal (categories as columns) */
+body.horizontal-layout {
+    min-height: 100vh;
+    overflow-y: auto;
+    overflow-x: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+body.horizontal-layout .sticky.top-0 {
+    flex: 0 0 auto;
+    /* Header doesn't shrink/grow */
+    position: relative;
+    /* Not sticky anymore, part of flex flow */
+    top: auto;
+}
+
+body.horizontal-layout #pages-container {
+    flex: 1;
+    min-height: 500px;
+    overflow: visible;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 1.5rem;
+    align-items: flex-start;
+    padding-bottom: 0.5rem;
+    height: auto;
+    width: fit-content;
+    min-width: 100%;
+}
+
+body.horizontal-layout .prompt-grid-container {
+    flex: 0 0 auto;
+    width: 280px;
+    min-width: 280px;
+    max-width: 280px;
+    display: flex;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-bottom: 0;
+    max-height: 100%;
+    overflow-y: auto;
+    /* Hide scrollbar but keep functionality */
+    scrollbar-width: none;
+    /* Firefox */
+    -ms-overflow-style: none;
+    /* IE/Edge */
+}
+
+/* Hide webkit scrollbar for categories */
+body.horizontal-layout .prompt-grid-container::-webkit-scrollbar {
+    display: none;
+}
+
+/* Fix collapse in horizontal mode */
+body.horizontal-layout .prompt-grid.collapsed {
+    display: none !important;
+}
+
+body.horizontal-layout .prompt-grid-container>.flex.items-center.gap-3.mb-4 {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.5rem;
+    flex-shrink: 0;
+    /* Header doesn't shrink */
+}
+
+body.horizontal-layout .prompt-grid-container>.flex.gap-3.mb-6 {
+    flex-direction: column;
+    gap: 0.5rem;
+    flex-shrink: 0;
+    /* Buttons don't shrink */
+}
+
+body.horizontal-layout .prompt-grid-container>.flex.gap-3.mb-6 button {
+    width: 100%;
+    font-size: 0.75rem;
+    padding: 0.25rem 0.5rem;
+}
+
+body.horizontal-layout .prompt-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+
+body.horizontal-layout .category-title {
+    writing-mode: horizontal-tb;
+    transform: none;
+    text-align: center;
+    white-space: normal;
+    font-size: 1rem;
+}
+
+body.horizontal-layout .prompt-card {
+    width: 100%;
+    flex-shrink: 0;
+    /* Cards don't shrink vertically */
+}
+
+/* In horizontal mode, rotate up/down arrows to become left/right */
+/* In horizontal mode, rotate up/down arrows to become left/right */
+body.horizontal-layout .move-category-up-btn,
+body.horizontal-layout .move-category-down-btn {
+    transform: rotate(-90deg);
+}
+
+/* Make category buttons visible in light mode - force black color */
+.move-category-up-btn,
+.move-category-down-btn,
+.collapse-category-btn {
+    color: #1f2937;
+    /* Default dark gray */
+}
+
+/* Explicitly target light mode context */
+:not(.dark) .move-category-up-btn,
+:not(.dark) .move-category-down-btn,
+:not(.dark) .collapse-category-btn,
+.light .move-category-up-btn,
+.light .move-category-down-btn,
+.light .collapse-category-btn {
+    color: #000000 !important;
+}
+
+/* Dark mode category arrows - White as requested */
+.dark .move-category-up-btn,
+.dark .move-category-down-btn,
+.dark .collapse-category-btn {
+    color: white !important;
+}
+
+/* Variant arrow buttons - White in light mode as requested */
+:not(.dark) .variant-nav-btn {
+    color: white !important;
+}
+
+/* Category action buttons */
+.move-category-up-btn,
+.move-category-down-btn,
+.collapse-category-btn {
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.25rem;
+    transition: all 0.2s;
+}
+
+.move-category-up-btn:hover,
+.move-category-down-btn:hover,
+.collapse-category-btn:hover {
+    background-color: rgba(59, 130, 246, 0.1);
+}
+
+.move-category-up-btn:active,
+.move-category-down-btn:active,
+.collapse-category-btn:active {
+    transform: scale(0.95);
+}
+
+.category-title {
+    flex: 1;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.prompt-card .edit-buttons {
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s;
+}
+
+.prompt-card:hover .edit-buttons {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.copy-message {
+    position: fixed;
+    top: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2000;
+    opacity: 0;
+    transition: top 0.5s, opacity 0.3s;
+}
+
+.copy-message.show {
+    top: 20px;
+    opacity: 1;
+}
+
+.sortable-ghost {
+    opacity: 0.4;
+    background-color: #f3f4f6;
+    border: 2px dashed #3b82f6;
+}
+
+.lightbox-img {
+    max-height: 95vh;
+    max-width: 95vw;
+    object-fit: contain;
+    transform-origin: center center;
+    cursor: grab;
+    transition: transform 0.1s ease-out;
+}
+
+.lightbox-img:active {
+    cursor: grabbing;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+
+.scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.loader {
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #3498db;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.aspect-square {
+    aspect-ratio: 1 / 1;
+}
+
+.line-clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* Light mode fixes */
+.light .text-black {
+    color: #000 !important;
+}
+
+.light .bg-black {
+    background-color: #000 !important;
+}
+
+.light .text-white {
+    color: #fff !important;
+}
+
+.light .bg-white {
+    background-color: #fff !important;
+}
+
+/* Hover effects */
+.hover-popout {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.hover-popout:hover {
+    transform: translateY(-2px) scale(1.02);
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+/* Shake animation - slower */
+@keyframes shake {
+
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
+        transform: translateX(-2px);
+    }
+
+    20%,
+    40%,
+    60%,
+    80% {
+        transform: translateX(2px);
+    }
+}
+
+.shake-on-hover:hover {
+    animation: shake 0.8s ease-in-out;
+}
+
+/* Button hover effects - all buttons turn green */
+.btn-gray:hover,
+.btn-colored:hover,
+button:hover {
+    background-color: #10b981 !important;
+    color: white !important;
+    filter: none !important;
+}
+
+/* Specific buttons that should stay their color but also have green option */
+.btn-stay-colored:hover {
+    filter: brightness(0.9) !important;
+    background-color: inherit !important;
+}
+
+/* Light mode header fixes */
+.light .bg-gray-900 {
+    background-color: #f8fafc !important;
+}
+
+.light .text-gray-100 {
+    color: #1e293b !important;
+}
+
+.light .border-gray-700 {
+    border-color: #e2e8f0 !important;
+}
+
+/* Card title overlay light mode fix */
+.light .title-overlay {
+    color: white !important;
+}
+
+/* Multi-select selected cards light mode */
+.light .selected-card {
+    background-color: white !important;
+    border-color: #e2e8f0 !important;
+}
+
+.light .selected-card-text {
+    color: #1e293b !important;
+}
+
+/* Prompt card header text colors */
+.prompt-card-header {
+    color: white !important;
+}
+
+.light .prompt-card-header {
+    color: #000000 !important;
+}
+
+/* Page button text colors */
+.page-btn {
+    color: white !important;
+}
+
+.light .page-btn {
+    color: #000000 !important;
+}
+
+/* Prompt card text colors */
+.prompt-card-text {
+    color: white !important;
+}
+
+.light .prompt-card-text {
+    color: #000000 !important;
+}
+
+/* Category title text colors - higher specificity */
+.category-title,
+h2.category-title {
+    color: white !important;
+}
+
+.light .category-title,
+.light h2.category-title {
+    color: #000000 !important;
+}
+
+/* ============================================= */
+/* PREMIUM VISUAL POLISH - Modern UI Enhancements */
+/* ============================================= */
+
+/* Glassmorphism for modals */
+#edit-modal>div,
+#category-modal>div,
+#note-modal>div,
+#rename-variants-modal>div,
+#drive-modal>div,
+#create-prompt-modal>div {
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.95);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.dark #edit-modal>div,
+.dark #category-modal>div,
+.dark #note-modal>div,
+.dark #rename-variants-modal>div,
+.dark #drive-modal>div,
+.dark #create-prompt-modal>div {
+    background: rgba(31, 41, 55, 0.95);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Enhanced prompt cards */
+.prompt-card {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.prompt-card:hover {
+    box-shadow: 0 20px 40px -12px rgba(0, 0, 0, 0.25);
+}
+
+.dark .prompt-card:hover {
+    box-shadow: 0 20px 40px -12px rgba(0, 0, 0, 0.5),
+        0 0 0 1px rgba(59, 130, 246, 0.3);
+}
+
+/* Gradient accent for header */
+.sticky.top-0 {
+    background: linear-gradient(135deg,
+            rgba(245, 245, 245, 0.98) 0%,
+            rgba(250, 250, 250, 0.95) 100%);
+}
+
+.dark .sticky.top-0 {
+    background: linear-gradient(135deg,
+            rgba(17, 24, 39, 0.98) 0%,
+            rgba(31, 41, 55, 0.95) 100%);
+}
+
+/* Enhanced buttons with gradient */
+#add-page-btn,
+#save-page-btn,
+#add-category-btn {
+    background: linear-gradient(135deg, var(--tw-gradient-from), var(--tw-gradient-to));
+    position: relative;
+    overflow: hidden;
+}
+
+#add-page-btn::before,
+#save-page-btn::before,
+#add-category-btn::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.2), transparent);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+#add-page-btn:hover::before,
+#save-page-btn:hover::before,
+#add-category-btn:hover::before {
+    opacity: 1;
+}
+
+/* Smooth page button transitions */
+.page-btn-container button {
+    transition: all 0.2s ease-out;
+}
+
+.page-btn-container button:active {
+    transform: scale(0.98);
+}
+
+/* Category container enhancement */
+.prompt-grid-container {
+    background: linear-gradient(180deg,
+            rgba(255, 255, 255, 0.05) 0%,
+            transparent 100%);
+    border-radius: 16px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.dark .prompt-grid-container {
+    background: linear-gradient(180deg,
+            rgba(0, 0, 0, 0.2) 0%,
+            transparent 100%);
+}
+
+/* Enhanced search input */
+#search {
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+
+#search:focus {
+    border-color: rgb(14, 233, 113);
+    box-shadow: 0 0 0 4px rgba(14, 233, 113, 0.349);
+}
+
+/* Animated loader enhancement */
+.loader {
+    border: 4px solid rgba(255, 255, 255, 0.1);
+    border-top: 4px solid rgb(14, 165, 233);
+    box-shadow: 0 0 20px rgba(14, 165, 233, 0.3);
+}
+
+/* Pulse animation for active elements */
+@keyframes pulse-glow {
+
+    0%,
+    100% {
+        box-shadow: 0 0 0 0 rgba(14, 165, 233, 0.4);
+    }
+
+    50% {
+        box-shadow: 0 0 0 8px rgba(14, 165, 233, 0);
+    }
+}
+
+.page-btn-container button.active {
+    animation: pulse-glow 2s infinite;
+}
+
+/* Smooth modal entry animation */
+#edit-modal:not(.hidden),
+#category-modal:not(.hidden),
+#note-modal:not(.hidden),
+#rename-variants-modal:not(.hidden),
+#drive-modal:not(.hidden),
+#create-prompt-modal:not(.hidden) {
+    animation: modalFadeIn 0.2s ease-out;
+}
+
+@keyframes modalFadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.95) translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+    }
+}
+
+/* Enhanced scrollbar styling */
+::-webkit-scrollbar {
+    width: 20px;
+    height: 20px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.dark ::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.dark ::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+/* Image hover zoom effect - REMOVED per user request */
+
+/* Note container visual enhancement */
+.note-container {
+    background: linear-gradient(90deg,
+            rgba(250, 204, 21, 0.1) 0%,
+            transparent 100%);
+    border-left: 3px solid rgb(250, 204, 21);
+}
+
+.dark .note-container {
+    background: linear-gradient(90deg,
+            rgba(250, 204, 21, 0.05) 0%,
+            transparent 100%);
+}
+
+/* Variant navigation enhancement */
+.prompt-card>div:first-child {
+    background: linear-gradient(135deg,
+            rgba(59, 130, 246, 0.1) 0%,
+            transparent 100%);
+}
+
+/* Performance optimization: will-change for animated elements */
+.hover-popout,
+.prompt-card,
+.lightbox-img,
+button {
+    will-change: transform;
+}
+
+/* Reduce motion for accessibility */
+@media (prefers-reduced-motion: reduce) {
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+    }
+}
+
+/* Custom scrollbar for horizontal layout pages container */
+body.horizontal-layout #pages-container::-webkit-scrollbar {
+    height: 12px;
+}
+
+body.horizontal-layout #pages-container::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+body.horizontal-layout #pages-container::-webkit-scrollbar-thumb {
+    background-color: rgba(156, 163, 175, 0.5);
+    border-radius: 20px;
+    border: 3px solid transparent;
+    background-clip: content-box;
+}
+
+body.horizontal-layout #pages-container::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(156, 163, 175, 0.8);
+}
+
+/* Scrollbar for Multi-Select Source Pages Container */
+#multi-source-pages-container {
+    overflow-x: auto !important;
+    /* Force auto */
+}
+
+/* Show scrollbar for multi select again */
+#multi-source-pages-container::-webkit-scrollbar {
+    height: 12px;
+    display: block !important;
+}
+
+#multi-source-pages-container::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+#multi-source-pages-container::-webkit-scrollbar-thumb {
+    background-color: rgba(156, 163, 175, 0.5);
+    border-radius: 20px;
+    border: 3px solid transparent;
+    background-clip: content-box;
+}
+
+#multi-source-pages-container::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(156, 163, 175, 0.8);
+}
+
+
+/* Multi-Select Global Text Override - FORCE WHITE */
+#multi-select-wrapper,
+#multi-select-wrapper * {
+    color: white !important;
+}
+
+/* Force black buttons in Light Mode (Prompt Pages) */
+html:not(.dark) .move-category-up-btn,
+html:not(.dark) .move-category-down-btn,
+html:not(.dark) .collapse-category-btn {
+    color: black !important;
+}
+
+/* Force white buttons in Dark Mode (Prompt Pages) via explicit rule */
+.dark .move-category-up-btn,
+.dark .move-category-down-btn,
+.dark .collapse-category-btn {
+    color: white !important;
+}
+
+/* Compact Category Header Styles */
+.category-header-row .category-title {
+    font-size: 1.1rem !important;
+    /* Smaller font for better fit */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+body.horizontal-layout .category-header-row {
+    margin-bottom: 0.5rem;
+}
+
+body.horizontal-layout .category-actions-row {
+    margin-bottom: 1rem;
+}
+
+/* Ensure icons are centered */
+.category-actions-row button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

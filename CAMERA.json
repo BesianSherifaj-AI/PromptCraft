@@ -1,0 +1,354 @@
+{
+  "CAMERA ANGLES & ORIENTATIONS": [
+    {
+      "tag": "LOW ANGLE",
+      "description": "[SUBJECT](Low-angle shot: camera positioned below eye level, looking up at the subject. Creates a sense of power, dominance, and monumentality. appears larger, more imposing against the background.)"
+    },
+    {
+      "tag": "HIGH ANGLE",
+      "description": "[SUBJECT](High-angle shot: camera positioned above eye level, looking down at the subject. Creates vulnerability, smallness, or overview perspective. Subject appears diminished or subordinate in the frame.)"
+    },
+    {
+      "tag": "EYE LEVEL",
+      "description": "[SUBJECT](Eye-level shot: camera positioned at the subject's eye height, creating neutral, natural perspective. Establishes equality and realism, neither empowering nor diminishing the subject.)"
+    },
+    {
+      "tag": "EXTREME LOW ANGLE",
+      "description": "[SUBJECT](Extreme low-angle shot: camera positioned very close to ground level, looking sharply upward. Creates dramatic scale distortion, towering effect, and powerful sense of dominance or intimidation.)"
+    },
+    {
+      "tag": "EXTREME HIGH ANGLE",
+      "description": "[SUBJECT](Extreme high-angle shot: camera positioned far above subject, looking steeply downward. Creates isolation, vulnerability, or god's-eye perspective. Subject appears tiny within vast environment.)"
+    },
+    {
+      "tag": "WORM-EYE VIEW",
+      "description": "[SUBJECT](View from below the subject, worm's-eye perspective, camera close to ground, looking up. Exaggerated scale, low-angle composition, emphasizing height and dominance of the subject.)"
+    },
+    {
+      "tag": "BIRD-EYE VIEW",
+      "description": "[SUBJECT](Mild aerial viewpoint: the camera is placed above the subject, angled downward to create a clear bird's-eye view without distortion.)"
+    },
+    {
+      "tag": "DUTCH ANGLE",
+      "description": "[SUBJECT](Mild Dutch camera angle: the camera is intentionally tilted off-balance on the roll axis, giving the composition a diagonal, dynamic feel, but with only a small tilt\u2014not a full rotation.)"
+    },
+    {
+      "tag": "DUTCH TILT",
+      "description": "[SUBJECT](Dutch tilt composition: camera rolled on its axis, creating slanted horizon line and diagonal perspective. Generates tension, disorientation, or psychological unease in the frame.)"
+    },
+    {
+      "tag": "CANTED ANGLE",
+      "description": "(Canted angle shot: camera tilted sideways off horizontal axis, creating oblique composition. Conveys instability, tension, or dynamic energy through off-kilter framing.)"
+    },
+    {
+      "tag": "OVERHEAD ANGLE",
+      "description": "[SUBJECT](Overhead shot: camera positioned directly above subject, pointing straight down. Creates flat, graphic composition showing spatial relationships and patterns from above.)"
+    },
+    {
+      "tag": "TOP-DOWN ANGLE",
+      "description": "[SUBJECT](Top-down perspective: camera looking directly downward onto subject from above. Emphasizes layout, arrangement, and spatial design with flattened perspective.)"
+    },
+    {
+      "tag": "OBLIQUE ANGLE",
+      "description": "[SUBJECT](Oblique angle shot: camera positioned at diagonal angle to subject, neither parallel nor perpendicular. Creates depth, dimension, and dynamic three-dimensional perspective.)"
+    },
+    {
+      "tag": "SIDE ANGLE",
+      "description": "[SUBJECT](Side-angle shot: camera positioned perpendicular to subject, capturing pure profile view. Emphasizes silhouette, outline, and lateral dimension of subject.)"
+    },
+    {
+      "tag": "FRONT ANGLE",
+      "description": "[SUBJECT](Front-facing angle: camera positioned directly in front of subject, creating symmetrical frontal view. Establishes direct confrontation, intimacy, or formal presentation.)"
+    },
+    {
+      "tag": "BACK ANGLE",
+      "description": "[SUBJECT](Back-angle shot: camera positioned behind subject, showing rear view. Creates mystery, anonymity, or shares subject's perspective of what lies ahead.)"
+    },
+    {
+      "tag": "THREE-QUARTER ANGLE",
+      "description": "[SUBJECT](Three-quarter angle shot: camera positioned at 45-degree angle to subject, showing both front and side. Creates depth, dimensionality, and natural, flattering perspective.)"
+    },
+    {
+      "tag": "PROFILE ANGLE",
+      "description": "[SUBJECT](Profile shot: camera capturing subject from pure side view, showing complete silhouette. Emphasizes facial features, body contour, and outline against background.)"
+    },
+    {
+      "tag": "DIAGONAL ANGLE",
+      "description": "[SUBJECT](Strong diagonal layout: the composition positions the subject along a bold diagonal path, enhancing energy and flow within the frame.)"
+    },
+    {
+      "tag": "TILT-UP ANGLE",
+      "description": "[SUBJECT](Tilt-up composition: camera angled upward from lower position, gradually revealing subject from bottom to top. Creates anticipation, grandeur, or revealing movement.)"
+    },
+    {
+      "tag": "TILT-DOWN ANGLE",
+      "description": "[SUBJECT](Tilt-down composition: camera angled downward from higher position, showing subject from top descending. Creates survey, assessment, or descending perspective.)"
+    },
+    {
+      "tag": "POV ANGLE",
+      "description": "[SUBJECT](Point-of-view shot: camera positioned to replicate exact perspective of a character's eyes. Creates immersive, subjective experience of seeing through character's viewpoint.)"
+    },
+    {
+      "tag": "REVERSE POV ANGLE",
+      "description": "[SUBJECT](Reverse POV shot: camera showing what is looking at the POV character. Reveals the subject of character's gaze, completing visual conversation between perspectives.)"
+    },
+    {
+      "tag": "BACK-TO-CAMERA ANGLE",
+      "description": "[SUBJECT](Back-to-camera shot: subject positioned with back toward camera, facing away. Creates anonymity, contemplation, or shares subject's forward-looking perspective.)"
+    }
+  ],
+  "CAMERA SHOTS (FRAMING / DISTANCE)": [
+    {
+      "tag": "EXTREME WIDE SHOT",
+      "description": "[SUBJECT](Extreme wide shot: camera positioned very far from subject, showing vast environment. Subject appears small within expansive landscape, emphasizing scale and context.)"
+    },
+    {
+      "tag": "WIDE SHOT",
+      "description": "[SUBJECT](Wide shot: camera captures subject fully within environment, showing complete body and surrounding space. Establishes location, context, and spatial relationships.)"
+    },
+    {
+      "tag": "LONG SHOT",
+      "description": "[SUBJECT](Long shot: camera positioned at distance showing full subject from head to toe with surrounding space. Balances subject presence with environmental context.)"
+    },
+    {
+      "tag": "FULL BODY SHOT",
+      "description": "[SUBJECT](Full body shot: camera framing captures subject's entire body from head to feet. Shows complete physical presence, posture, and body language within frame.)"
+    },
+    {
+      "tag": "MEDIUM LONG SHOT",
+      "description": "[SUBJECT](Medium long shot: camera frames subject from approximately knees upward. Often called \"cowboy shot,\" balancing body language visibility with facial detail.)"
+    },
+    {
+      "tag": "MEDIUM SHOT",
+      "description": "[SUBJECT](Medium shot: camera frames subject from waist up, showing torso, arms, and head. Balances facial expression with body language and gestures.)"
+    },
+    {
+      "tag": "MEDIUM CLOSE-UP",
+      "description": "[SUBJECT](Medium close-up shot: camera frames subject from chest upward, emphasizing face while including shoulders. Intimate yet maintaining some physical context.)"
+    },
+    {
+      "tag": "CLOSE-UP",
+      "description": "[SUBJECT](Close-up: the camera is positioned very near the subject, capturing all subject in the frame.)"
+    },
+    {
+      "tag": "EXTREME CLOSE-UP",
+      "description": "[SUBJECT](Extreme close-up shot: camera frames very tight on specific detail\u2014eyes, mouth, hands, or object. Creates intense intimacy, emphasis, or dramatic focus.)"
+    },
+    {
+      "tag": "MACRO SHOT",
+      "description": "[SUBJECT](Macro shot: camera with macro lens positioned extremely close to small subject, revealing minute details invisible to naked eye. Creates abstract, detailed, magnified perspective.)"
+    },
+    {
+      "tag": "COWBOY SHOT",
+      "description": "[SUBJECT](Cowboy shot: camera frames subject from mid-thigh upward, traditionally showing gunbelt in Western films. Emphasizes stance, readiness, and body language.)"
+    },
+    {
+      "tag": "KNEE SHOT",
+      "description": "[SUBJECT](Knee shot: camera frames subject from knees upward, showing most of body while maintaining facial detail. Provides strong sense of physical presence.)"
+    },
+    {
+      "tag": "SHOULDER SHOT",
+      "description": "[SUBJECT](Shoulder shot: camera frames subject from shoulders up, focusing on face and upper torso. Creates intimacy while maintaining personal space boundary.)"
+    },
+    {
+      "tag": "BUST SHOT",
+      "description": "[SUBJECT](Bust shot: camera frames subject from chest upward, capturing head, neck, and upper torso. Classic portrait framing emphasizing facial expression and upper body.)"
+    },
+    {
+      "tag": "HEADSHOT",
+      "description": "[SUBJECT](Headshot: camera tightly frames subject's head and face, filling frame from top of head to just below chin. Maximum facial detail and emotional intimacy.)"
+    },
+    {
+      "tag": "TIGHT SHOT",
+      "description": "[SUBJECT](Tight shot: camera framed extremely close to subject with minimal surrounding space. Creates claustrophobic, intense, or highly focused composition.)"
+    }
+  ],
+  "COMPOSITION-STYLE SHOT TAGS": [
+    {
+      "tag": "CENTERED COMPOSITION",
+      "description": "[SUBJECT](Centered composition: subject positioned in exact center of frame, creating symmetrical, balanced, formal arrangement. Emphasizes subject importance and stability.)"
+    },
+    {
+      "tag": "RULE-OF-THIRDS COMPOSITION",
+      "description": "[SUBJECT](Rule-of-thirds composition: frame divided into 3x3 grid, subject positioned along gridlines or intersections. Creates balanced, natural, visually pleasing arrangement.)"
+    },
+    {
+      "tag": "SYMMETRICAL SHOT",
+      "description": "[SUBJECT](Symmetrical shot: composition with balanced elements mirrored on either side of central axis. Creates harmony, formality, and aesthetic perfection.)"
+    },
+    {
+      "tag": "ASYMMETRICAL SHOT",
+      "description": "[SUBJECT](Asymmetrical shot: composition with unbalanced element distribution, creating visual tension. Generates dynamic interest through intentional imbalance.)"
+    },
+    {
+      "tag": "MINIMALIST SHOT",
+      "description": "[SUBJECT](Minimalist shot: composition with minimal elements, abundant empty space, simple forms. Emphasizes subject through reduction and negative space.)"
+    },
+    {
+      "tag": "BUSY COMPOSITION",
+      "description": "[SUBJECT](Busy composition: frame filled with multiple elements, details, and visual information. Creates complexity, energy, or overwhelming sensory experience.)"
+    },
+    {
+      "tag": "NEGATIVE SPACE SHOT",
+      "description": "[SUBJECT](Negative space shot: composition emphasizing empty areas around subject, using emptiness as design element. Creates isolation, focus, or breathing room.)"
+    },
+    {
+      "tag": "LEADING LINES SHOT",
+      "description": "[SUBJECT](Leading lines composition: visual lines within frame guide viewer's eye toward subject. Creates depth, direction, and purposeful visual flow.)"
+    },
+    {
+      "tag": "FOREGROUND FRAMING SHOT",
+      "description": "[SUBJECT](Foreground framing shot: elements in foreground create natural frame around subject. Adds depth, context, and directs attention to main subject.)"
+    },
+    {
+      "tag": "OVER-THE-SHOULDER SHOT",
+      "description": "[SUBJECT](Over-the-shoulder shot: camera positioned behind one subject's shoulder, looking toward another. Creates conversational perspective and spatial relationship.)"
+    },
+    {
+      "tag": "REACTION SHOT",
+      "description": "[SUBJECT](Reaction shot: camera captures subject responding to off-screen action or dialogue. Emphasizes emotional response and character perspective.)"
+    },
+    {
+      "tag": "TWO-SHOT",
+      "description": "[SUBJECT](Two-shot: camera frames two subjects within same composition. Establishes relationship, interaction, or comparison between characters.)"
+    },
+    {
+      "tag": "THREE-SHOT",
+      "description": "[SUBJECT](Three-shot: camera frames three subjects within composition, showing group dynamic. Creates triangular visual relationship and social interaction.)"
+    },
+    {
+      "tag": "GROUP SHOT",
+      "description": "[SUBJECT](Group shot: camera captures multiple subjects arranged together in frame. Emphasizes collective presence, community, or ensemble dynamic.)"
+    }
+  ],
+  "MOVEMENT-RELATED CAMERA SHOTS": [
+    {
+      "tag": "TRACKING SHOT",
+      "description": "[SUBJECT](Tracking shot aesthetic: composition suggesting camera movement following subject laterally. Creates dynamic sense of motion, pursuit, or accompaniment.)"
+    },
+    {
+      "tag": "DOLLY SHOT",
+      "description": "[SUBJECT](Dolly shot style: composition implying camera physically moving toward or away from subject on track. Creates smooth approach or retreat with depth change.)"
+    },
+    {
+      "tag": "CRN-SHOT",
+      "description": "[SUBJECT](Crane shot perspective: composition suggesting camera positioned on crane, capable of sweeping vertical and horizontal movement. Creates grand, elevated, cinematic perspective.)"
+    },
+    {
+      "tag": "BOOM SHOT",
+      "description": "[SUBJECT](Boom shot style: composition implying camera on boom arm, moving vertically. Creates rising or lowering perspective with dramatic reveal.)"
+    },
+    {
+      "tag": "ZOOM SHOT",
+      "description": "[SUBJECT](Zoom shot aesthetic: composition suggesting focal length change, appearing to move closer or farther. Creates intensity increase or dramatic distance change.)"
+    },
+    {
+      "tag": "PUSH-IN SHOT",
+      "description": "[SUBJECT](Push-in composition: framing suggesting camera moving steadily closer to subject. Creates building tension, intimacy, or focused attention.)"
+    },
+    {
+      "tag": "PULL-BACK SHOT",
+      "description": "[SUBJECT](Pull-back composition: framing suggesting camera moving away from subject, revealing context. Creates revelation, scope expansion, or isolation.)"
+    },
+    {
+      "tag": "PAN SHOT",
+      "description": "[SUBJECT](Pan shot style: composition implying horizontal camera rotation across scene. Creates sweeping survey, landscape revelation, or spatial exploration.)"
+    },
+    {
+      "tag": "TILT SHOT",
+      "description": "[SUBJECT](Tilt shot aesthetic: composition suggesting vertical camera rotation, scanning up or down. Creates height revelation or vertical space exploration.)"
+    },
+    {
+      "tag": "ARC SHOT",
+      "description": "[SUBJECT](Arc shot composition: framing suggesting camera moving in curved path around subject. Creates dimensional reveal, dynamic perspective, and circular motion.)"
+    },
+    {
+      "tag": "360-DEGREE SHOT",
+      "description": "[SUBJECT](360-degree perspective: composition implying complete circular camera path around subject. Creates comprehensive spatial understanding and dynamic rotation.)"
+    },
+    {
+      "tag": "STATIC SHOT",
+      "description": "[SUBJECT](Static shot: camera fixed in single position without movement. Creates stability, observation, and deliberate, contemplative framing.)"
+    }
+  ],
+  "LENS / PERSPECTIVE TYPE": [
+    {
+      "tag": "WIDE-ANGLE SHOT",
+      "description": "[SUBJECT](Wide-angle lens shot: composition showing expanded field of view with slight barrel distortion. Exaggerates space, depth, and environmental scope.)"
+    },
+    {
+      "tag": "ULTRA-WIDE SHOT",
+      "description": "[SUBJECT](Ultra-wide lens shot: composition with extremely expanded field of view and pronounced barrel distortion. Creates dramatic spatial exaggeration and immersive perspective.)"
+    },
+    {
+      "tag": "FISHEYE SHOT",
+      "description": "[SUBJECT](Fisheye lens shot: composition with spherical distortion creating circular, bulging perspective. Dramatically warps space, creating surreal, immersive viewpoint.)"
+    },
+    {
+      "tag": "TELEPHOTO SHOT",
+      "description": "[SUBJECT](Telephoto lens shot: composition with compressed perspective, flattened depth, and narrow field of view. Creates isolated subject with beautifully blurred background.)"
+    },
+    {
+      "tag": "PORTRAIT-LENS SHOT",
+      "description": "[SUBJECT](Portrait-lens shot: composition with shallow depth of field, subject sharp against softly blurred background. Creates pleasing bokeh and subject isolation.)"
+    },
+    {
+      "tag": "MACRO-LENS SHOT",
+      "description": "[SUBJECT](Macro-lens shot: composition capturing extreme detail of small subject at very close range. Reveals microscopic textures and details with minimal depth of field.)"
+    },
+    {
+      "tag": "TILT-SHIFT SHOT",
+      "description": "[SUBJECT](Tilt-shift lens shot: composition with selective focus plane, creating miniature effect or corrected perspective. Produces dreamy, toy-like, or architecturally corrected view.)"
+    },
+    {
+      "tag": "ANAMORPHIC SHOT",
+      "description": "[SUBJECT](Anamorphic lens shot: composition with characteristic wide aspect ratio, horizontal lens flares, and oval bokeh. Creates cinematic, premium visual aesthetic.)"
+    }
+  ],
+  "SPECIAL POV / PERSPECTIVE": [
+    {
+      "tag": "FIRST-PERSON SHOT",
+      "description": "[SUBJECT](First-person perspective: camera represents character's own eyes, showing what they see. Creates immersive, subjective experience of being the character.)"
+    },
+    {
+      "tag": "THIRD-PERSON SHOT",
+      "description": "[SUBJECT](Third-person perspective: camera observing subject from outside their body. Creates objective viewpoint watching character from external position.)"
+    },
+    {
+      "tag": "OBJECT POV SHOT",
+      "description": "[SUBJECT](Object POV shot: camera positioned at perspective of inanimate object, showing scene from object's \"viewpoint.\" Creates unusual, creative perspective.)"
+    },
+    {
+      "tag": "DRONE SHOT",
+      "description": "[SUBJECT](Drone shot perspective: elevated aerial view with smooth, floating quality. Creates sweeping, bird's-eye perspective with contemporary aesthetic.)"
+    },
+    {
+      "tag": "SVC",
+      "description": "[SUBJECT](Surveillance camera angle: high-corner mounted perspective with wide-angle distortion, timestamp overlay aesthetic. Creates voyeuristic, security monitoring viewpoint.)"
+    },
+    {
+      "tag": "SECURITY CAM ANGLE",
+      "description": "[SUBJECT](Security cam perspective: fixed high-angle viewpoint with grainy quality, suggesting CCTV footage. Creates documentary, monitoring, or found-footage aesthetic.)"
+    },
+    {
+      "tag": "DASHCAM ANGLE",
+      "description": "[SUBJECT](Dashcam perspective: forward-facing view from vehicle dashboard, showing road ahead. Creates point-of-view from driver's position with characteristic wide angle.)"
+    },
+    {
+      "tag": "VINTAGE FILM FILTER",
+      "description": "[SUBJECT](subtle warm tones, soft grain, gentle contrast, slightly faded colors, classic analog film look)\n"
+    },
+    {
+      "tag": "COOL CINEMATIC FILTER",
+      "description": "[SUBJECT](clean teal-and-neutral tones, smooth contrast, soft shadows, modern cinematic color grading, no added objects)\n"
+    },
+    {
+      "tag": "MSC-POV",
+      "description": "[SUBJECT](Microscope viewpoint: extreme magnification showing microscopic details with circular vignette. Creates scientific, detailed perspective of tiny subjects.)"
+    },
+    {
+      "tag": "TSC-POV",
+      "description": "[SUBJECT](Telescope viewpoint: distant view through circular vignette, showing magnified far-away subjects. Creates astronomical, surveillance, or distant observation perspective.)"
+    }
+  ]
+}

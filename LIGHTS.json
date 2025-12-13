@@ -1,0 +1,344 @@
+{
+  "3D RENDERING & CGI SPECIFIC": [
+    {
+      "description": "\n(dancing refracted patterns; concentrated light webs; water/glass light distortion; bright ripple clusters, liquid-light geometry, shimmering focus patterns)\n[SUBJECT]",
+      "tag": "Caustics-Style"
+    },
+    {
+      "description": "\n(soft corner shadows; contact darkness; grounded realism; subtle crevice shading, depth-weight enhancement, photorealistic surface grounding)\n[SUBJECT]",
+      "tag": "Ambient-Occlusion-Style"
+    },
+    {
+      "description": "(surface light spillover; colored bounce glow; soft indirect tinting; diffuse bounce illumination, reflected hue wash, radiant red  color spill)\n[SUBJECT]",
+      "tag": "Color-Bleeding-Style-(Radiosity)"
+    },
+    {
+      "description": "\n(realistic bulb projection shapes; textured falloff; non-uniform beam pattern; intricate light geometry, patterned illumination cone, authentic photometric spread)\n[SUBJECT]",
+      "tag": "IES-Light-Profile-Style"
+    },
+    {
+      "description": "(light passing through glass, crystal, or water; rainbow or spectrum highlights; dispersed beams; subtle chromatic splitting; refracted volumetric glow interacting with subject)\n[SUBJECT]",
+      "tag": "PrismaticRefraction-Style"
+    }
+  ],
+  "ATMOSPHERIC & NATURAL PHENOMENA": [
+    {
+      "description": "\n(parallel sunbeams through clouds/trees; dust-lit shafts; dramatic volumetric rays; radiant crepuscular beams, directional sun shafts, atmospheric diffusion, glowing light columns)\n[SUBJECT]",
+      "tag": "God-Rays-Style"
+    },
+    {
+      "description": "(direct beams of light on the subject , light line)\n[SUBJECT]",
+      "tag": "Light-Beam-Style"
+    },
+    {
+      "description": "(double halo bright spots; 22\u00b0 parhelia; glowing mock-suns; lateral bright orbs, icy atmospheric refraction, arc halo glow, dual side-sun reflections)\n[SUBJECT]",
+      "tag": "Sun-Dogs-Style"
+    },
+    {
+      "description": "\n(warm soft orange light; long shadows; glowing skin tones; rich amber lighting, directional low sun, warm atmosphere haze, cinematic sunset illumination)\n[SUBJECT]",
+      "tag": "Golden-Hour-Style"
+    },
+    {
+      "description": "(deep cool blue ambience; shadowless soft light; civil-twilight glow; cobalt gradients, diffuse even illumination, serene low-contrast lighting, dusk-toned palette)\n[SUBJECT]",
+      "tag": "Blue-Hour-Style"
+    },
+    {
+      "description": "(pink/red glow ; indirect horizon light; soft pastel radiance; rosy illumination, magenta skyline hue, ethereal glow, reflective high-altitude light)\n[SUBJECT]",
+      "tag": "Alpenglow-Style"
+    },
+    {
+      "description": "\n(enlarged projected shadow; rainbow halo ring; fog-projection glow; ghostlike figure projection, circular glory halo, atmospheric scattering ring, mountain mist halo)\n[SUBJECT]",
+      "tag": "Brocken-Spectre-Style"
+    },
+    {
+      "description": "(white around head shadow; dewy reflection glow; retroreflection effect; bright localized backscatter, halo-point highlight )\n[SUBJECT]",
+      "tag": "Heiligenschein-Style"
+    },
+    {
+      "description": "(light penetrating translucent skin; glowing interior diffusion; soft internal radiance; warm red edge glow, translucent lighting, internal light bleed, organic scattering softness)\n[SUBJECT]",
+      "tag": "Subsurface-Scattering-Style"
+    },
+    {
+      "description": "(diffused light shafts interacting with fog or mist; soft atmospheric illumination; glowing haze around subject; dreamy and immersive volumetric light)\n[SUBJECT]",
+      "tag": "Volumetric-Fog-Style"
+    },
+    {
+      "description": "(subtle spectrum dispersion; light refracted through water, glass, or crystal; soft rainbow fringes around edges; dreamlike or ethereal glow; subject interacting with refracted light)\n[SUBJECT]",
+      "tag": "Prismatic-Rainbow-Light-Style"
+    },
+    {
+      "description": "(momentary intense flashes; dramatic illumination of subject and surroundings; high-contrast highlights and shadows; dynamic natural light effect)\n[SUBJECT]",
+      "tag": "Lightning-Strobe-Atmosphere-Style"
+    }
+  ],
+  "Cinematic & Film Emulations": [
+    {
+      "description": "(high contrast; very low saturation; metallic highlights; gritty desaturated  colors film look; silver-retention harshness) \n[SUBJECT]",
+      "tag": "Bleach-Bypass-style"
+    },
+    {
+      "description": "(cool teal shadows; warm orange skin tones; high separation between background and subject; cinematic contrast) \u2014 Keywords: teal shadows, orange highlights, blockbuster palette, warm skin tones, cool background, cinematic grade\n[SUBJECT]",
+      "tag": "Teal-and-Orange-(Hollywood-Blockbuster)"
+    },
+    {
+      "description": "(unnatural color casts; extreme contrast; green/cyan shadows; yellow/red highlights; surreal tonal shifts)\n[SUBJECT]",
+      "tag": "Cross-Processing(X-Pro)"
+    },
+    {
+      "description": "(hyper-saturated reds and greens; creamy whites; painted-looking skin tones; vintage film richness, saturated primaries, lush reds, vintage greens, creamy whites, retro film look )\n[SUBJECT]",
+      "tag": "echnicolor(2-Strip-3-Strip)"
+    },
+    {
+      "description": "(day scenes graded to blue; crushed highlights; underexposed tones; simulation,blue tint, crushed sky, nighttime emulation, underexposed daylight, cinematic look)\n[SUBJECT]",
+      "tag": "Day-for-Night"
+    },
+    {
+      "description": "(punchy contrast; vibrant reds/yellows; slightly cool shadows; fine grain; classic analog color, vintage Kodak, rich reds, punchy contrast, cool shadows, film grain)\n[SUBJECT]",
+      "tag": "Kodachrome-Look"
+    },
+    {
+      "description": "(dramatic contrast; deep shadows; limited illumination; moody and mysterious atmosphere; subject highlighted by selective lighting; emphasis on shadow shapes)",
+      "tag": "Low-Key-Style"
+    },
+    {
+      "description": "(very bright, minimal shadows; soft even illumination; light-filled scene; subject brightly lit with low contrast; airy and clean visual tone)\n[SUBJECT]",
+      "tag": "High-Key-Style"
+    },
+    {
+      "description": "(strong interplay of light and shadow; painterly contrast; highlights sharply define form; dramatic and artistic lighting; subject illuminated in cinematic shadow patterns) \n[SUBJECT]",
+      "tag": "Chiaroscuro-Style"
+    },
+    {
+      "description": "(vivid colored lighting; bright neon tones; reflective surfaces glowing in saturated hues; urban / cyberpunk aesthetic; subject illuminated by multi-colored light sources)\n[SUBJECT]",
+      "tag": "Neon-Glow-Style"
+    },
+    {
+      "description": "(focused directional light; hard-edged beam; high contrast between subject and background; stage or theatrical illumination; dramatic center of attention)\n[SUBJECT]",
+      "tag": "Spotlight-Style"
+    },
+    {
+      "tag": "Light-Leak-Style",
+      "description": "(analog film effect; accidental streaks of colored light; hazy glows; soft gradients of warm or magenta tones; nostalgic or dreamy imperfections; light bleeding across the frame)\n[SUBJECT]"
+    }
+  ],
+  "Color Theory & Harmony Effects": [
+    {
+      "description": "(entire image in tints/tones/shades of a single hue; unified minimal palette)\n[SUBJECT]",
+      "tag": "Monochromatic"
+    },
+    {
+      "description": "(adjacent, harmonious, natural; gentle gradient from yellow to green, seamless color flow, soft and smooth transitions, unified frame, natural aesthetic)\n[SUBJECT]",
+      "tag": "Analogous-colors-style"
+    },
+    {
+      "description": "(opposite hues; high contrast; bold visual pop; strong , red\u2013green contrast, blue\u2013orange pop, opposite hues, dramatic color tension )\n[SUBJECT]",
+      "tag": "Complementary-style"
+    }
+  ],
+  "DIGITAL SENSOR & GLITCH ARTIFACTS": [
+    {
+      "description": "\n(light overflow; bleeding highlights; bright objects lose shape; pixel-spill glow, overexposed bloom bleed, radiant highlight washout, sensor inundation effect)\n[SUBJECT]",
+      "tag": "Sensor-Blooming-Style"
+    },
+    {
+      "description": "(vertical bright streak; continuous line from light source; strong CCD artifact; column smear trail, elongated pixel streaks, vertical luminance drag)\n[SUBJECT]",
+      "tag": "Smearing-Style-(CCD)"
+    },
+    {
+      "description": "(wavy rainbow interference on the image light; fine-grid distortion; spectral patterning; overlapping the image fractal ripples, iridescent mesh distortion frame, micro-pattern color waves)\n[SUBJECT]",
+      "tag": "Moir\u00e9-Pattern-Style-effect"
+    },
+    {
+      "description": "(tiny single red/green/blue dots; all-locations defects; pixel anomalies; random bright speckles, sensor noise defects, static like points)\n[SUBJECT]",
+      "tag": "Hot-Pixels-Style"
+    },
+    {
+      "description": "(gradient breaks; stepped color regions; tonal discontinuity; discrete color bands, low-bit gradient plateaus, posterized sky tones)\n[SUBJECT]",
+      "tag": "Banding-Style-(Posterization)"
+    },
+    {
+      "tag": "Film-Grain-Style",
+      "description": "(subtle or heavy analog noise; textured image surface; retro photographic feel; visual imperfections resembling classic film stock; soft tonal variation across subject)\n[SUBJECT]"
+    },
+    {
+      "tag": "HDR-Tone-Mapping-Style",
+      "description": "(high dynamic range; enhanced contrast and detail in highlights and shadows; vibrant yet balanced colors; subject rendered with enhanced depth and clarity)\n[SUBJECT]"
+    },
+    {
+      "tag": "Vignette-Style",
+      "description": "(darkened or subtly shaded image corners; draws attention toward center; soft gradient around edges; classic cinematic or portrait emphasis; subject highlighted by surrounding shading)\n[SUBJECT]"
+    },
+    {
+      "tag": "Strobe-Flash-Effect-Style",
+      "description": "(momentary intense light; dramatic frozen motion; high-contrast highlights and shadows; simulated flash photography; dynamic subject illumination with sharp light bursts)\n[SUBJECT]"
+    }
+  ],
+  "Digital Grading & Post-Processing": [
+    {
+      "description": "([COLOR] color in shadows and [COLOR] in highlights; stylized only two-hue mood cast; non-natural palette, dual tone, colored shadows, colored highlights, mood tinting, stylized palette)\n[SUBJECT]",
+      "tag": "Split-Toning-Style"
+    },
+    {
+      "description": "(one color preserved saturated ; strong visual isolation of the color, isolated hue, high contrast focal color )\n[COLOR+OBJECT]\n[SUBJECT]",
+      "tag": "Selective-Color-Style"
+    },
+    {
+      "description": "(full image mapped to two or three ink-like hues; uniformgraphic tonal structure; no natural colors ,duotone ink, uniform palette, graphic colors, poster style, limited hues )\n[COLOR]\n[COLOR]\n[COLOR]\n[SUBJECT]",
+      "tag": "Duotone-Tritone-Style"
+    },
+    {
+      "description": "(lowered saturation; washed-out tones; somber palette; subdued mood ,low saturation, washed palette, soft contrast, muted tones, subdued look)\n[COLOR]-[COLOR]\n[SUBJECT]",
+      "tag": "Desaturated-Muted"
+    },
+    {
+      "description": "(Vivid colors, enhanced saturation, radiant tones, intense and vibrant hues, eye-catching color pop, rich and luminous colors )\n[SUBJECT]",
+      "tag": "Vibrance-Boost-Style"
+    },
+    {
+      "description": "(global hue shift; emotional palette; warm/cool/green tonal atmospheres, warm sepia, cool blue, green matrix tint, mood color shift, emotional palette)\n[COLOR]\n[SUBJECT]",
+      "tag": "Color-Grading-(Mood)"
+    }
+  ],
+  "LENS & OPTICAL ARTIFACTS": [
+    {
+      "description": "(creamy out-of-focus background; soft circular/hexagonal bokeh; luminous blur shapes; high-aperture rendering f/1.4\u2013f/2; fairy-light sparkle, circular bokeh spheres, soft blur disks, shallow focus optics, glowing highlights, smooth DOF falloff, cinematic focus )\n[SUBJECT]",
+      "tag": "Bokeh-Style"
+    },
+    {
+      "description": "(swirling background blur; circular twist around subject; Helios-style spin; rotating bokeh field, optical swirl motion, curved depth distortion, center-weighted focus clarity, analog lens character, dreamy rotational blur )\n[SUBJECT]",
+      "tag": "Swirly-Bokeh-Style-(Petzval)"
+    },
+    {
+      "description": "(edge-compressed bokeh; oval-rugby-ball highlights; vignetting-induced background distortion; background directional oval  blur , tapered highlight shapes, peripheral compression, asymmetrical spread bokeh geometry , cinematic focused subject)\n[SUBJECT]",
+      "tag": "Bokeh-Style-CE"
+    },
+    {
+      "description": "(medium transparent inner bokeh-discs circular shaped bokehs, soft translucent inside centers, bokeh hard edges effects,optical bokeh ring artifacts , bubbl-bokeh )\n[SUBJECT]",
+      "tag": "SPB-Bokeh-Style"
+    },
+    {
+      "description": "(static natural blended directional blue/cyan streak flares; widescreen optical compression; elongated blue flare bands; cinematic natural flares, compressed lens geometry, highlight forms, flare sweep , cinematic focus on subject)\n[SUBJECT]",
+      "tag": "Anamorphic-Lens-Flare-Style"
+    },
+    {
+      "description": "(soft  giant light glare hard edges ; wshed glowing scatter, bright atmospheric light flare covers , giant radius lense glare ,  soft obstructing subject giant glare )\n[SUBJECT]",
+      "tag": "Veiling-Glare-Style"
+    },
+    {
+      "description": "(Layered ghosted subjects, fuzzy super overlapping shapes, motion blur on moving subject, prolonged exposure , semi-transparent stacked exposures, subtle lens aberrations and reflective artifacts, distorted focal length ,ethereal distortion, scattered highlights and subtle ghost flare, elongated motion trails spectral glow, overlapping movement between consecutive frames , intensive hard exaggerated overlapping transparent effect, intense optical aberration ,warped perspective layering)\n[SUBJECT]",
+      "tag": "Ghosting-Style"
+    },
+    {
+      "description": "(sharp radiating spikes; aperture-blade diffraction; bright point splitting into rays; multi-point star flare, crisp light spikes, radiating sun-lines, high-contrast starburst geometry)\n[SUBJECT]",
+      "tag": "Sunstar-Starburst-Style"
+    },
+    {
+      "description": "Overlapping radiant edges in green and purple, translucent spectral outlines, high-contrast color-fringe separation, pronounced halo streaks, optical dispersion with RGB offset, streaked luminous edges, with green pushed left and purple pushed right, blending together in a balanced, shifting chromatic glow.\n[SUBJECT]",
+      "tag": "Chromatic-Aberration-Style-(Fringing)"
+    },
+    {
+      "description": "(Zoomed-OUT background warping SHRINKING \n around subject, intense lens distortion with spherical aberration, pronounced RGB fringing on edges, subtle color bleeding, chromatic separation, warped perspective, soft optical blur, dreamy cinematic lens effect, slight background swirl, distorted light refraction, artistic optical imperfection , MAGNIFIED AND WARPED SUBJECT)\n\n[SUBJECT]",
+      "tag": "SAberration-Style"
+    }
+  ],
+  "PORTRAIT & STUDIO PATTERNS": [
+    {
+      "description": "\n(triangle of light on shadowed cheek; directional chiaroscuro; dramatic portrait contrast; sculpted face shadows, classic painterly lighting, angled key-light shaping)\n[SUBJECT]",
+      "tag": "Rembrandt-Lighting-Style"
+    },
+    {
+      "description": "(symmetrical light and shadow; equal nose shadow in left and right and eyes shadow; smooth highlight, equal frontal shadow and light , facial symmetrical shadows )\n[SUBJECT]",
+      "tag": "BTFL-Style"
+    },
+    {
+      "description": "(light source moved about 30\u00b0 to the side and 20\u201330\u00b0 above eye level, causing the nose shadow to fall sideways and form a small loop; brighter illumination on the light-facing side of the face; smooth gradient of shadow on the opposite cheek; subject facing straight toward the camera with no change in pose, only the light repositioned)\n[SUBJECT]",
+      "tag": "Loop-Lighting-Style"
+    },
+    {
+      "description": "\n(one side lit, one side dark; 50/50 contrast; dramatic tonal divide; high-contrast portrait splitting, bold shadow plane, sculptural face separation)\n[SUBJECT]",
+      "tag": "Split-Lighting-Style"
+    },
+    {
+      "description": "\n(thin bright outline from behind; silhouette separator; glowing edge halo; crisp edge-light band, background separation flare, luminous outline shaping)\n[SUBJECT]",
+      "tag": "Rim-Light-Style"
+    },
+    {
+      "description": "(Light coming above the subject angled downward, second light or reflection of light coming below angled upward; soft, even illumination across the subject; minimal downward shadows; smooth, balanced highlights; symmetrical lighting that produces a gentle glow and clean, flattering tones)\n[SUBJECT]",
+      "tag": "Clamshell-Lighting-Style"
+    },
+    {
+      "description": "(Illumination coming from two different angles, one side brighter and the other creating opposing highlights; strong contrast shaping; textured appearance enhanced by cross-directional light; layered shadows adding depth; dynamic and edgy lighting atmosphere)\n[SUBJECT]",
+      "tag": "Cross-Lighting-Style"
+    },
+    {
+      "description": "\n(front-facing side lit; widening effect; bright turned face plane; open-side illumination, expansive facial highlight, portrait broadness emphasis)\n[SUBJECT]",
+      "tag": "Broad-Lighting-Style"
+    },
+    {
+      "description": "\n(distant face side lit; slimming effect; deep sculpted contours; shadow-rich shaping, contrasty face definition, refined portrait structure)\n[SUBJECT]",
+      "tag": "Short-Lighting-Style"
+    }
+  ],
+  "STAGE, LASER & ARTISTIC EFFECTS": [
+    {
+      "description": "\n(stenciled light shapes; hard shadow projections; patterned illumination; crisp cutout shadows, geometric light casting, artistic projection texture)[SHADOW]\n[SUBJECT]",
+      "tag": "Gobo-Style"
+    },
+    {
+      "description": "(above the subject far away a [green] uniform Laser tails )\n[SUBJECT]",
+      "tag": "Liquid-Sky-Style-(Laser)"
+    },
+    {
+      "description": "\n(visible glowing light-beam; thick illuminated air; fog-defined cone; dense atmospheric rays, cinematic volumetric scatter, beam-through-fog glow)\n[SUBJECT]",
+      "tag": "Volumetric-Light-Style"
+    },
+    {
+      "description": "(long-exposure glowing streaks; motion trails; drawn-in-air lines; luminous flowing ribbons, kinetic light traces, neon path strokes)\n[it shapes with light a [SUBJECT] ]\n[SUBJECT]",
+      "tag": "Light-Painting-Style"
+    },
+    {
+      "description": "\n(spotted light patches; leaf-filtered sun pattern; natural broken light; organic shadow play, nature-lit speckles, soft shifting patches)\n[SUBJECT]",
+      "tag": "Dappled-Light-Style"
+    }
+  ],
+  "Technical & Glitch Artifacts": [
+    {
+      "description": "\nPosterized Style (reduced color steps; banded gradients; flat color planes; graphic simplification) \u2014 Keywords: limited palette, color bands, flat gradients, digital reduction\n[SUBJECT]",
+      "tag": "Posterization"
+    },
+    {
+      "description": " (magenta/green speckles in shadows; digital grain; noisy low-light texture, color speckle noise, high ISO artifacts, digital shadow noise )\n[SUBJECT]",
+      "tag": "Chroma-Noise"
+    },
+    {
+      "description": "(visible stepped transitions between tones; broken and segmented gradients; low bit-depth appearance; 8-bit photography look; banded color tones; digital artifacting; sharp gradient steps; retro digital aesthetic; pixel-level color separation; intentionally imperfect color blending)\n[SUBJECT]",
+      "tag": "Color-banding-style"
+    },
+    {
+      "description": "(Chromatic aberration style; pink, cyan, and green fringing along edges; misaligned lens colors; RGB separation on outlines; retro digital lens flaw; edge halos; color fringing; slight lens distortion; intentional optical imperfection; subtle RGB misalignment creating a glitchy or retro photographic effect)\n[SUBJECT]",
+      "tag": "Chromatic-Aberration-Style"
+    },
+    {
+      "description": "(Clipped-color style; overexposed color channels; blown-out red, green, or blue areas; flat highlights lacking detail; channel burnout; detail loss in bright areas; strong color clipping; intentional overexposure; subject affected by clipped colors; minimal texture in highlighted regions)\n[SUBJECT]",
+      "tag": "Color-Clipping-(Burnout)"
+    }
+  ],
+  "VINTAGE & CHEMICAL PROCESSES": [
+    {
+      "description": "( warm brown and orange monochrome; creamy highlights; soft contrast; antique aesthetic; vintage look; nostalgic and classic atmosphere warm sepia tones)\n[SUBJECT]",
+      "tag": "Sepia-Tone-Style"
+    },
+    {
+      "description": "\nCyanotype Style (Prussian-blue monochrome; white highlights; blueprint aesthetic) \u2014 Keywords: deep blue tone, cyan monochrome, blueprint look, high-contrast blue\n[SUBJECT]",
+      "tag": "Cyanotype"
+    },
+    {
+      "description": "(oversaturated colors; heavy vignette; yellow/green tint; toy-camera imperfections ,vignette edges, oversaturation, color shifts, light leaks, lo-fi film )\n[SUBJECT]",
+      "tag": "Lomography-(Lomo)"
+    },
+    {
+      "description": "(soft contrast; faded blacks; slight green or magenta color cast; dreamy instant-film texture; retro softness; soft shadows; muted highlights; subtle film grain; nostalgic aesthetic; subject integrated into faded, vintage tones)\n[SUBJECT]",
+      "tag": "Polaroid-Instant-film"
+    }
+  ]
+}

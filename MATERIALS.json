@@ -1,0 +1,296 @@
+{
+  "ELEMENTAL MATERIALS": [
+    {
+      "tag": "FIRE-SHAPED-SUBJECT",
+      "description": "Fire shaped like a [SUBJECT], Glowing 3D realistic, Flickering, Lively, Intense, Warm, Dynamic, Blazing, Radiant, Ember-like, Smoke Rising, Heat Waves. [ENVIRONMENT]"
+    },
+    {
+      "tag": "LAVA-SHAPED-SUBJECT",
+      "description": "Lava shaped like a [SUBJECT], Molten 3D realistic, Glowing, Flowing, Fiery, Viscous, Radiant, Smoky. [ENVIRONMENT]"
+    },
+    {
+      "tag": "EARTH-SHAPED-SUBJECT",
+      "description": "Dirt shaped like a [SUBJECT], Textured 3D realistic, Crumbly, Dense, Organic, Rough, Natural, Soil Particles, Moss Accents. [ENVIRONMENT]"
+    },
+    {
+      "tag": "ASH-SHAPED-SUBJECT",
+      "description": "Ash shaped like a [SUBJECT], Powdery ,wood heat chalky 3D realistic,  grey black , Dusty, Charred, Soft, Smoke residue, Dispersed particles burnt ashen. [ENVIRONMENT ]"
+    },
+    {
+      "tag": "WATER-SHAPED-SUBJECT",
+      "description": "Water shaped like a [SUBJECT], Transparent 3D realistic, Liquid, Clear, Rippled, Flowing. [ENVIRONMENT]"
+    },
+    {
+      "tag": "ICE-SHAPED-SUBJECT",
+      "description": "Ice shaped like a [SUBJECT], Transparent 3D realistic, Frosted, Crystalline, Cold, Smooth, Glimmering. [ENVIRONMENT]"
+    },
+    {
+      "tag": "MIST-SHAPED-SUBJECT",
+      "description": "foggy 3D shaped transparent Mist forming a [SUBJECT], foggy, Floating smoke-shaped , vapor , ghostly, diffuse, haze . [ENVIRONMENT]"
+    },
+    {
+      "tag": "SNOW-SHAPED-SUBJECT",
+      "description": "Snow shaped like a [SUBJECT], 3D realistic, White, Frosted, Soft, Crystalline, Sparkling. [ENVIRONMENT]"
+    }
+  ],
+  "STONE / MINERAL MATERIALS": [
+    {
+      "tag": "CLAY-SHAPED-SUBJECT",
+      "description": "Clay shaped like a [SUBJECT], Soft 3D realistic, Moldable, Earthy, Wet or Dry, Textured, Hand-shaped appearance. [ENVIRONMENT]"
+    },
+    {
+      "tag": "CLAY-BRICK-RED-SHAPED-SUBJECT",
+      "description": "Red clay brick shaped like a [SUBJECT], Terracotta tone, Porous, Rough, Fired ceramic, Industrial texture. [ENVIRONMENT]"
+    },
+    {
+      "tag": "BRICK-SHAPED-SUBJECT",
+      "description": "Brick shaped like a [SUBJECT], Rough 3D realistic, Textured, Heavy, Mortar-lined, Weathered, Solid, Structural. [ENVIRONMENT]"
+    },
+    {
+      "tag": "CONCRETE-SHAPED-SUBJECT",
+      "description": "Concrete shaped like a [SUBJECT], Rough gray texture, Porous, Heavy, Industrial, cement surface, Solid. [ENVIRONMENT]"
+    },
+    {
+      "tag": "STONE-SHAPED-SUBJECT",
+      "description": "Stone shaped like a [SUBJECT], Rough 3D realistic, Weathered, Cracked, Heavy, Textured, Natural minerals. [ENVIRONMENT]"
+    },
+    {
+      "tag": "GRANITE-SHAPED-SUBJECT",
+      "description": "Granite shaped like a [SUBJECT], Speckled stone texture, Polished or rough, Dense, Mineral flecks, Heavy. [ENVIRONMENT]"
+    },
+    {
+      "tag": "MINERAL-SHAPED-SUBJECT",
+      "description": "Mineral shaped like a [SUBJECT], Crystalline clusters, Raw stone texture, Metallic flecks, Natural formation. [ENVIRONMENT]"
+    },
+    {
+      "tag": "MARBLE-SHAPED-SUBJECT",
+      "description": "Marble shaped like a [SUBJECT], Polished 3D realistic, Veined, Smooth, Reflective, Elegant, Stone-textured, Weighty. [ENVIRONMENT]"
+    },
+    {
+      "tag": "OBSIDIAN-SHAPED-SUBJECT",
+      "description": "Obsidian shaped like a [SUBJECT], Glassy 3D realistic, Black volcanic stone, Razor-sharp reflections, Polished, Iridescent edges. [ENVIRONMENT]"
+    }
+  ],
+  "PRECIOUS MATERIALS": [
+    {
+      "tag": "GOLD-SHAPED-SUBJECT",
+      "description": "Gold shaped like a [SUBJECT], Glowing 3D realistic, Polished, Lustrous, Shiny, Precious, Reflective, Warm, Ornate, Radiant. [ENVIRONMENT]"
+    },
+    {
+      "tag": "DIAMOND-SHAPED-SUBJECT",
+      "description": "Diamond shaped like a [SUBJECT], Sparkling 3D realistic, Faceted, Clear, Prismatic, Reflective, Hard, Gem-like, Radiant. [ENVIRONMENT]"
+    },
+    {
+      "tag": "SAPPHIRE-SHAPED-SUBJECT",
+      "description": "Sapphire material shaped like a [SUBJECT], Deep blue faceted , Transparent, Highly refractive, Polished, Luminous. [ENVIRONMENT]"
+    },
+    {
+      "tag": "RUBY-SHAPED-SUBJECT",
+      "description": "Ruby shaped like a [SUBJECT] 3D realistic, Red faceted , Clear, Highly reflective, Prismatic. [ENVIRONMENT]"
+    },
+    {
+      "tag": "AMETHYST-SHAPED-SUBJECT",
+      "description": "Amethyst shaped like a [SUBJECT], Purple crystalline clusters, Sparkling, Raw mineral formation, Semi-transparent. [ENVIRONMENT]"
+    },
+    {
+      "tag": "OPAL-SHAPED-SUBJECT",
+      "description": "Opal shaped like a [SUBJECT], Iridescent 3D realistic, Glossy, Smooth, Color-shifting, Radiant. [ENVIRONMENT]"
+    }
+  ],
+  "METALLIC MATERIALS": [
+    {
+      "tag": "METALLIC-SHAPED-SUBJECT",
+      "description": "Metal shaped like a [SUBJECT], Shiny 3D realistic, Polished, Reflective, Smooth, Industrial, Brushed, Rusted, Cold, Hard. [ENVIRONMENT]"
+    },
+    {
+      "tag": "MERCURY-SHAPED-SUBJECT",
+      "description": "Mercury shaped like a [SUBJECT], Liquid metal, Heavy fluid, High surface tension, Silver droplets, Mirror-like reflection, Smooth, Beading. [ENVIRONMENT]"
+    },
+    {
+      "tag": "BRASS-SHAPED-SUBJECT",
+      "description": "Brass shaped like a [SUBJECT], Yellow metallic alloy, Polished shine, Warm tone, Engraved or smooth. [ENVIRONMENT]"
+    },
+    {
+      "tag": "BRONZE-SHAPED-SUBJECT",
+      "description": "Bronze shaped like a [SUBJECT], Metallic brown-gold, Aged patina, Sculpted, Heavy, Classic alloy shine. [ENVIRONMENT]"
+    },
+    {
+      "tag": "MOLTEN-METAL-SHAPED-SUBJECT",
+      "description": "Molten metal shaped like a [SUBJECT], Glowing liquid metal, reflective, Hot, Fluid, Bright orange edges. [ENVIRONMENT]"
+    },
+    {
+      "tag": "CARBON-FIBER-SHAPED-SUBJECT",
+      "description": "Carbon fiber shaped like a [SUBJECT], Woven black composite, Glossy resin coat, Lightweight, High-tech, Reflective weave. [ENVIRONMENT]"
+    }
+  ],
+  "SYNTHETIC & INDUSTRIAL MATERIALS": [
+    {
+      "tag": "RUBBER-SHAPED-SUBJECT",
+      "description": "Rubber shaped like a [SUBJECT], Smooth 3D realistic, Flexible, Matte or Glossy, Synthetic, Durable. [ENVIRONMENT]"
+    },
+    {
+      "tag": "TIRE-RUBBER-SHAPED-SUBJECT",
+      "description": "Tire rubber shaped like a [SUBJECT], Deep tread grooves, Black textured rubber, Heavy-duty, Industrial. [ENVIRONMENT]"
+    },
+    {
+      "tag": "PLASTIC-BOTTLE-SHAPED-SUBJECT",
+      "description": "Many Plastic bottles shaped like a [SUBJECT], Transparent , Molded ridges, distortion, Glossy, Recycled. [ENVIRONMENT]"
+    },
+    {
+      "tag": "PLASTIC-WRAP-SHAPED-SUBJECT",
+      "description": "Empty Bubble wrap shaped like a sculpted [SUBJECT] invisible and hollow , Clear texture, Air pockets, transparency. [ENVIRONMENT] \n"
+    },
+    {
+      "tag": "BLOCK-SHAPED-SUBJECT",
+      "description": "Plastic bricks shaped like a realistic [SUBJECT], Voxel construction, Studded surface, Modular, Geometric. [ENVIRONMENT]"
+    },
+    {
+      "tag": "FOIL-SHAPED-SUBJECT",
+      "description": "Aluminium foil shaped like a [SUBJECT], Crinkled silver texture, Highly reflective, Sharp creases, Metallic thin film, Shiny. [ENVIRONMENT]"
+    },
+    {
+      "tag": "WIRE-SHAPED-SUBJECT",
+      "description": "Wire shaped like a [SUBJECT], Tangled cables, Copper or steel strands, Industrial weave, Complex mesh, Tech-waste aesthetic. [ENVIRONMENT]"
+    },
+    {
+      "tag": "PCB-SHAPED-SUBJECT",
+      "description": "Electronic chips shaped like a [SUBJECT], Green circuit texture, Gold traces, Soldered components, Capacitors, High-tech, Intricate details. [ENVIRONMENT]"
+    },
+    {
+      "tag": "TAR-SHAPED-SUBJECT",
+      "description": "Tar shaped like a [SUBJECT], Thick 3D realistic, Black, Glossy, Sticky, Viscous, Dripping, Dense. [ENVIRONMENT]"
+    }
+  ],
+  "LIGHT-BASED / ENERGY MATERIALS": [
+    {
+      "tag": "NEBULA-SHAPED-SUBJECT",
+      "description": "Plasma shaped like a [SUBJECT], Ionized gas, Purple and pink hues, Soft glow, Energy field, Stellar texture, Gaseous. [ENVIRONMENT]"
+    },
+    {
+      "tag": "PLASMA-SHAPED-SUBJECT",
+      "description": "Plasma shaped like a [SUBJECT], Electrified energy arcs, Glowing, Vibrational, Chaotic light patterns. [ENVIRONMENT]"
+    },
+    {
+      "tag": "HOLOGRAM-SHAPED-SUBJECT",
+      "description": "Hologram shaped like a [SUBJECT], Translucent 3D projection, Glitching, Luminous, Pixel-lit edges, Futuristic, Floating light grid, Volumetric glow. [ENVIRONMENT]"
+    },
+    {
+      "tag": "ELECTRICITY-SHAPED-SUBJECT",
+      "description": "Electricity shaped like a [SUBJECT], High-voltage arcs, Glowing blue-yellow-white, Crackling energy, Jagged lines, Luminous, Dynamic, Volatile. [ENVIRONMENT]"
+    },
+    {
+      "tag": "NEON-SHAPED-SUBJECT",
+      "description": "Neon shaped like a [SUBJECT], Luminous realistic, Vibrant, Glowing, Electric, Bright, Futuristic. [ENVIRONMENT]"
+    }
+  ],
+  "NATURAL ORGANIC MATERIALS": [
+    {
+      "tag": "PLANT-SHAPED-SUBJECT",
+      "description": "Plant shaped like a [SUBJECT], Lush 3D realistic, Green, Leafy, Textured, Organic, Blooming, Natural, Vine-like, Rooted. [ENVIRONMENT]"
+    },
+    {
+      "tag": "BAMBOO-SHAPED-SUBJECT",
+      "description": "Bamboo shaped like a [SUBJECT], Hollow segments, Natural green or dried tan, Linear texture, Organic, Fibrous. [ENVIRONMENT]"
+    },
+    {
+      "tag": "BONE-SHAPED-SUBJECT",
+      "description": "Bone shaped like a [SUBJECT], Textured 3D realistic, Hard, Organic, Weathered, Pale, Detailed. [ENVIRONMENT]"
+    },
+    {
+      "tag": "FUR-SHAPED-SUBJECT",
+      "description": "Fur shaped like a [SUBJECT], Soft dense fibers, Realistic strands, Fluffy, Textured, Warm tactile look. [ENVIRONMENT]"
+    },
+    {
+      "tag": "CORAL-SHAPED-SUBJECT",
+      "description": "Coral shaped like a [SUBJECT], Porous texture, Marine organic, Calcified, Colorful details, Reef-like structure, Rough. [ENVIRONMENT]"
+    },
+    {
+      "tag": "FEATHER-SHAPED-SUBJECT",
+      "description": "Many feathers shaped like a [SUBJECT] stylized stristic plumage-like , abstract , 3D realistic full with feathers , Detailed , Flowing. . [ENVIRONMENT]"
+    },
+    {
+      "tag": "CLAMSHELL-SHAPED-SUBJECT",
+      "description": "Many Clamshells shaped like a [SUBJECT], Textured ridges, Pearlescent interior, Rough outer shell, Coastal, Organic. [ENVIRONMENT]"
+    }
+  ],
+  "FABRIC / TEXTILE MATERIALS": [
+    {
+      "tag": "LINEN-SHAPED-SUBJECT",
+      "description": "Linen shaped like a [SUBJECT] 3D, Woven natural fibers, Soft matte texture, Light and breathable, Subtle cross-thread pattern, Organic and lightweight. [ENVIRONMENT]"
+    },
+    {
+      "tag": "FABRIC-SHAPED-SUBJECT",
+      "description": "Fabric shaped like a [SUBJECT], Soft 3D realistic, Flowing, Draped, Smooth, Woven, Textured. [ENVIRONMENT]"
+    },
+    {
+      "tag": "SILK-SHAPED-SUBJECT",
+      "description": "Silk shaped like a [SUBJECT], Smooth flowing fabric, High-gloss sheen, Delicate drape, Ultra-fine fibers, Elegant shimmer, Luxurious texture. [ENVIRONMENT]"
+    },
+    {
+      "tag": "VELVET-SHAPED-SUBJECT",
+      "description": "Velvet shaped like a [SUBJECT], Soft crushed fabric, Sheen, Deep shadows, Smooth, Luxurious, Tactile fuzz. [ENVIRONMENT]"
+    },
+    {
+      "tag": "LEATHER-SHAPED-SUBJECT",
+      "description": "Leather shaped like a [SUBJECT], Tanned hide texture, Visible grain, Stitched seams, Worn or Polished, Durable, Brown/Black tones. [ENVIRONMENT]"
+    },
+    {
+      "tag": "DENIM-SHAPED-SUBJECT",
+      "description": "Denim shaped like a [SUBJECT], Blue jean texture, Woven cotton, White stitching, Frayed edges, Heavy fabric, Indigo. [ENVIRONMENT]"
+    }
+  ],
+  "SOFT / POROUS MATERIALS": [
+    {
+      "tag": "FOAM-SHAPED-SUBJECT",
+      "description": "Bubble Foam shaped like a [SUBJECT], Soft porous texture, Lightweight, Air-bubble structure, Spongy, Matte. [ENVIRONMENT]"
+    },
+    {
+      "tag": "CORK-SHAPED-SUBJECT",
+      "description": "Cork shaped like a [SUBJECT], Compressed wood particles, Porous, Matte tan color, Natural, Lightweight, Vintage. [ENVIRONMENT]"
+    },
+    {
+      "tag": "SPONGE-MATERIAL",
+      "description": "Sponge-material shaped like a [SUBJECT], porous texture, Air holes, Soft, Absorbent, Matte, Squeezable. [ENVIRONMENT]"
+    }
+  ],
+  "POWDER / DUST / GRAIN MATERIALS": [
+    {
+      "tag": "SAND-SHAPED-SUBJECT",
+      "description": "3D Sand shaped like a [SUBJECT], realistic, Textured, Loose, Dry, Natural, Layered. [ENVIRONMENT]"
+    },
+    {
+      "tag": "CHARCOAL-SHAPED-SUBJECT",
+      "description": "Charcoal shaped like a [SUBJECT], Burnt 3D realistic, Matte dark texture, Cracked, Dry, Chalky edges. [ENVIRONMENT]"
+    }
+  ],
+  "LIQUID / VISCOUS MATERIALS": [
+    {
+      "tag": "HONEY-SHAPED-SUBJECT",
+      "description": "Honey shaped like a [SUBJECT], Golden amber liquid, Viscous, Translucent, Sticky, Slow-dripping, Sweet gloss, Bubble inclusions. [ENVIRONMENT]"
+    },
+    {
+      "tag": "MILK-SHAPED-SUBJECT",
+      "description": "Milk shaped like a [SUBJECT], Creamy white liquid 3D realistic, Splashing, Opaque, Smooth, Fluid motion, Droplets, Pure. [ENVIRONMENT]"
+    },
+    {
+      "tag": "CHOCOLATE-SHAPED-SUBJECT",
+      "description": "Chocolate shaped like a [SUBJECT], Melting dark chocolate, Matte to satin finish, Smooth, Rich brown, Thick liquid flow. [ENVIRONMENT]"
+    },
+    {
+      "tag": "SLIME-SHAPED-SUBJECT",
+      "description": "Slime shaped like a [SUBJECT], Translucent, Gooey, Dripping, Wet, Gelatinous, Sticky, Glossy surface. [ENVIRONMENT]"
+    },
+    {
+      "tag": "INK-SHAPED-SUBJECT",
+      "description": "Black ink shaped like a [SUBJECT], Fluid simulation 3D realistic, Swirling in water, Dissolving edges, Smoky liquid, High contrast, Abstract flow. [ENVIRONMENT]"
+    },
+    {
+      "tag": "PAINT-SHAPED-SUBJECT",
+      "description": "Thick paint shaped like a [SUBJECT], Acrylic texture 3D realistic, Brush strokes, Wet gloss, Colorful, Heavy blend, Artistic. [ENVIRONMENT]"
+    },
+    {
+      "tag": "BLOOD-SHAPED-SUBJECT",
+      "description": "Blood shaped like a [SUBJECT], Deep crimson liquid, Glossy, Viscous, Splattered, Droplets, Organic fluid, High contrast. [ENVIRONMENT]"
+    }
+  ]
+}

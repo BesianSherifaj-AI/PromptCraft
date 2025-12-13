@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="PromptForge - A powerful tool for organizing, managing, and quickly copying AI image generation prompts. Supports ComfyUI, Automatic1111, and Forge formats.">
+    <meta name="keywords" content="AI, prompts, image generation, ComfyUI, Automatic1111, Forge, prompt manager">
+    <meta name="theme-color" content="#0ea5e9">
+    <title>PromptForge</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.15.0/Sortable.min.js"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        primary: { 50: '#f0f9ff', 100: '#e0f2fe', 200: '#bae6fd', 300: '#7dd3fc', 400: '#38bdf8', 500: '#0ea5e9', 600: '#0284c7', 700: '#0369a1', 800: '#075985', 900: '#0c4a6e' }
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body
+    class="dark bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors duration-300 font-sans">
+
+    <!-- Loader -->
+    <div id="loading-overlay"
+        class="fixed inset-0 bg-black bg-opacity-70 z-[1000] hidden flex flex-col items-center justify-center text-white">
+        <div class="loader mb-4"></div>
+        <p class="text-xl font-bold" id="loading-text">Processing...</p>
+    </div>
+
+    <!-- Header & Controls -->
+    <div class="fixed top-5 right-5 z-50 flex gap-2">
+        <button id="shortcuts-btn"
+            class="bg-gray-700 hover:bg-gray-600 text-white px-3 py-2 rounded-lg shadow-lg hover-popout shake-on-hover">⌨️</button>
+        <button id="dark-mode-toggle"
+            class="bg-primary-600 hover:bg-primary-700 text-white px-4 py-2 rounded-lg shadow-lg hover-popout shake-on-hover">☀️
+            Light</button>
+        <button id="layout-toggle"
+            class="bg-purple-600 hover:bg-purple-700 text-white px-3 py-2 rounded-lg shadow-lg hover-popout shake-on-hover"
+            title="Switch to Horizontal Layout">⬍</button>
+    </div>
+
+    <div class="sticky top-0 z-40 bg-gray-50 dark:bg-gray-900 border-b-2 border-primary-500 shadow-sm">
+        <div class="w-full px-6 py-4">
+            <h1 class="text-3xl md:text-4xl font-bold text-center text-primary-600 dark:text-primary-400 mb-6">🎨
+                PromptForge</h1>
+            <div class="flex flex-wrap items-center gap-3 mb-4">
+                <div id="pages-bar" class="flex flex-wrap gap-2"></div>
+                <div id="action-buttons-group" class="flex gap-2">
+                    <button id="add-page-btn"
+                        class="bg-green-600 hover:bg-green-800 text-white border border-green-300 px-4 py-2 rounded shadow font-medium hover-popout shake-on-hover">Add
+                        Page</button>
+                    <button id="save-page-btn"
+                        class="bg-orange-600 hover:bg-orange-800 text-white border border-green-300 px-4 py-2 rounded shadow font-medium hover-popout shake-on-hover">Save
+                        Page</button>
+                    <button id="add-category-btn"
+                        class="bg-blue-600 hover:bg-blue-800 text-white border border-red-300 px-4 py-2 rounded shadow font-medium hover-popout shake-on-hover">Add
+                        Category</button>
+                </div>
+                <input type="text" id="search" placeholder="Search prompts..."
+                    class="flex-1 max-w-xs px-4 py-2 text-sm rounded border dark:border-gray-600 bg-white dark:bg-gray-800 placeholder-white outline-none focus:ring-2 focus:ring-primary-500">
+                <select id="variant-filter"
+                    class="px-4 py-2 text-sm text-yellow-300 rounded border dark:border-gray-600 bg-white dark:bg-gray-800 outline-none focus:ring-2 focus:ring-primary-500">
+                    <option value="">All Variants</option>
+                </select>
+                <button id="rename-all-variants-btn"
+                    class="px-4 py-2 text-sm bg-purple-600 hover:bg-purple-700 text-white rounded border dark:border-gray-600 hover-popout shake-on-hover">
+                    🏷️ Rename All Variants
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div id="pages-container" class="px-6 py-6 max-w-full min-h-screen pb-32"></div>
+
+    <!-- Modals & Toasts -->
+    <div id="copy-message" class="copy-message bg-green-600 text-white px-6 py-3 rounded shadow-lg font-medium">Copied!
+    </div>
+    <div id="warning-message" class="copy-message bg-red-500 text-black px-6 py-3 rounded shadow-lg font-bold">
+        Warning</div>
+
+    <div id="edit-modal"
+        class="hidden fixed inset-0 bg-black bg-opacity-60 z-[60] flex items-center justify-center p-4">
+        <div class="bg-white dark:bg-gray-800 rounded-xl shadow-2xl w-full max-w-3xl p-6">
+            <h3 class="text-2xl font-bold mb-4">Edit Prompt Variants</h3>
+
+            <div class="flex gap-4 mb-4">
+                <div class="flex-1">
+                    <div class="flex gap-2 mb-2">
+                        <select id="variant-selector"
+                            class="bg-white dark:bg-gray-700 border dark:border-gray-600 rounded px-3 py-2 outline-none flex-1">
+                        </select>
+                        <button id="add-variant-btn"
+                            class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded">+ Add Variant</button>
+                        <button id="delete-variant-btn"
+                            class="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded">- Delete</button>
+                    </div>
+                    <div class="flex gap-2 mb-4">
+                        <input type="text" id="variant-name-input" placeholder="Variant Name"
+                            class="flex-1 px-4 py-2 rounded border dark:border-gray-600 bg-gray-50 dark:bg-gray-700 outline-none">
+                        <button id="rename-variant-btn"
+                            class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded">Rename</button>
+                    </div>
+                </div>
+            </div>
+
+            <textarea id="edit-text"
+                class="w-full h-48 px-4 py-3 rounded border dark:border-gray-600 bg-gray-50 dark:bg-gray-700 outline-none resize-none"></textarea>
+
+            <div class="mt-4">
+                <label for="edit-note" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Note
+                    (optional)</label>
+                <input type="text" id="edit-note" placeholder="Add a note for this variant..."
+                    class="w-full px-4 py-2 rounded border dark:border-gray-600 bg-gray-50 dark:bg-gray-700 outline-none">
+            </div>
+
+            <div class="flex justify-end gap-3 mt-6">
+                <button id="cancel-edit"
+                    class="px-6 py-2 bg-red-600 text-white rounded hover-popout shake-on-hover">Cancel</button>
+                <button id="save-edit"
+                    class="px-6 py-2 bg-green-600 text-white rounded hover-popout shake-on-hover">Save</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="category-modal"
+        class="hidden fixed inset-0 bg-black bg-opacity-60 z-[60] flex items-center justify-center p-4">
+        <div class="bg-white dark:bg-gray-800 rounded-xl shadow-2xl w-full max-w-md p-6">
+            <h3 class="text-2xl font-bold mb-4">New Category</h3>
+            <input type="text" id="category-name" placeholder="Name"
+                class="w-full px-4 py-3 rounded border dark:border-gray-600 bg-gray-50 dark:bg-gray-700 outline-none">
+            <div class="flex justify-end gap-3 mt-6">
+                <button id="cancel-category"
+                    class="px-6 py-2 bg-red-600 text-white rounded hover-popout shake-on-hover">Cancel</button>
+                <button id="save-category"
+                    class="px-6 py-2 bg-green-600 text-white rounded hover-popout shake-on-hover">Save</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Note Edit Modal -->
+    <div id="note-modal"
+        class="hidden fixed inset-0 bg-black bg-opacity-60 z-[70] flex items-center justify-center p-4">
+        <div class="bg-white dark:bg-gray-800 rounded-xl shadow-2xl w-full max-w-lg p-6">
+            <h3 class="text-2xl font-bold mb-2">📝 Edit Note</h3>
+            <p class="text-sm text-gray-500 dark:text-gray-400 mb-4" id="note-modal-variant-info">Variant: Default</p>
+            <textarea id="note-textarea" placeholder="Add your note here..." rows="6"
+                class="w-full px-4 py-3 rounded border dark:border-gray-600 bg-gray-50 dark:bg-gray-700 outline-none resize-none"></textarea>
+            <div class="flex justify-end gap-3 mt-6">
+                <button id="cancel-note"
+                    class="px-6 py-2 bg-red-600 text-white rounded hover-popout shake-on-hover">Cancel</button>
+                <button id="save-note"
+                    class="px-6 py-2 bg-green-600 text-white rounded hover-popout shake-on-hover">Save</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Rename All Variants Modal -->
+    <div id="rename-variants-modal"
+        class="hidden fixed inset-0 bg-black bg-opacity-60 z-[60] flex items-center justify-center p-4">
+        <div class="bg-white dark:bg-gray-800 rounded-xl shadow-2xl w-full max-w-md p-6">
+            <h3 class="text-2xl text-yellow-500  font-bold mb-4">🏷️ Rename All Variants</h3>
+            <p class="text-gray-600 dark:text-gray-300 mb-4">Rename a variant across ALL prompts and pages at once.</p>
+
+            <div class="space-y-3">
+                <div>
+                    <label class="block text-sm text-yellow-300 font-medium mb-1">Current Variant Name</label>
+                    <select id="rename-variant-old-name"
+                        class=" text-yellow-500 w-full px-4 py-2 rounded border dark:border-gray-600 bg-gray-50 dark:bg-gray-700 outline-none">
+                        <option value="">Select variant to rename</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label class="block text-sm text-yellow-500 font-medium mb-1">New Variant Name</label>
+                    <input type="text" id="rename-variant-new-name" placeholder="Enter new name"
+                        class="w-full px-4 py-2 rounded border dark:border-gray-600 bg-gray-50 dark:bg-gray-700 outline-none">
+                </div>
+            </div>
+
+            <div class="flex justify-end gap-3 mt-6">
+                <button id="cancel-rename-variants"
+                    class="px-6 py-2 bg-red-600 text-white rounded hover-popout shake-on-hover">Cancel</button>
+                <button id="confirm-rename-variants"
+                    class="px-6 py-2 bg-purple-600 text-white rounded hover-popout shake-on-hover">Rename All</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="lightbox-modal"
+        class="hidden fixed inset-0 bg-black bg-opacity-95 z-[1100] flex flex-col items-center justify-center overflow-hidden select-none">
+        <div class="absolute inset-0 z-0" id="lightbox-bg"></div>
+        <div class="absolute top-4 right-4 flex gap-3 z-[101]">
+            <button id="zoom-in" class="bg-gray-700 text-white w-10 h-10 rounded text-xl font-bold">+</button>
+            <button id="zoom-out" class="bg-gray-700 text-white w-10 h-10 rounded text-xl font-bold">-</button>
+            <button id="zoom-reset" class="bg-gray-700 text-white px-3 h-10 rounded">Reset</button>
+            <button id="lightbox-close" class="bg-red-600 text-white w-10 h-10 rounded text-xl font-bold">✕</button>
+        </div>
+        <div class="w-full h-full flex items-center justify-center pointer-events-auto" id="lightbox-container">
+            <img id="lightbox-image" src="" class="lightbox-img pointer-events-auto">
+        </div>
+    </div>
+
+    <!-- Drive Selection Modal -->
+    <div id="drive-modal"
+        class="hidden fixed inset-0 bg-black bg-opacity-60 z-[60] flex items-center justify-center p-4">
+        <div class="bg-white dark:bg-gray-800 rounded-xl shadow-2xl w-full max-w-2xl p-6">
+            <h3 class="text-2xl font-bold mb-4">Select a Drive</h3>
+            <div id="drive-grid" class="grid grid-cols-3 md:grid-cols-6 gap-4 mb-6"></div>
+            <div class="flex justify-end gap-3 mt-6">
+                <button id="cancel-drive" class="px-6 py-2 bg-red-600 text-white rounded">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Create Prompt Card Modal -->
+    <div id="create-prompt-modal"
+        class="hidden fixed inset-0 bg-black bg-opacity-60 z-[9999] flex items-center justify-center p-4">
+        <div class="bg-white dark:bg-gray-800 rounded-xl shadow-2xl w-full max-w-md p-6">
+            <h3 class="text-2xl font-bold mb-4">🎨 Create Prompt Card</h3>
+            <p class="text-gray-600 dark:text-gray-300 mb-4">Select where to create the prompt card from this image.</p>
+
+            <div class="space-y-4">
+                <div>
+                    <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Page</label>
+                    <select id="create-prompt-page"
+                        class="w-full px-4 py-2 rounded border dark:border-gray-600 bg-gray-50 dark:bg-gray-700 outline-none">
+                        <option value="">Select a page</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Category</label>
+                    <select id="create-prompt-category"
+                        class="w-full px-4 py-2 rounded border dark:border-gray-600 bg-gray-50 dark:bg-gray-700 outline-none">
+                        <option value="">Select a category</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Prompt Tag</label>
+                    <input type="text" id="create-prompt-tag" placeholder="Enter prompt tag..."
+                        class="w-full px-4 py-2 rounded border dark:border-gray-600 bg-gray-50 dark:bg-gray-700 outline-none">
+                </div>
+
+                <div>
+                    <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Prompt
+                        Description</label>
+                    <textarea id="create-prompt-description" placeholder="Enter prompt description..." rows="3"
+                        class="w-full px-4 py-2 rounded border dark:border-gray-600 bg-gray-50 dark:bg-gray-700 outline-none resize-none"></textarea>
+                </div>
+            </div>
+
+            <div class="flex justify-end gap-3 mt-6">
+                <button id="cancel-create-prompt"
+                    class="px-6 py-2 bg-red-600 text-white rounded hover-popout shake-on-hover">Cancel</button>
+                <button id="save-create-prompt"
+                    class="px-6 py-2 bg-green-600 text-white rounded hover-popout shake-on-hover">Create</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript Modules -->
+    <script src="/js/utils.js"></script>
+    <script src="/js/prompt-manager.js"></script>
+    <script src="/js/lightbox.js"></script>
+    <script src="/js/shortcuts.js"></script>
+    <script src="/js/folder-explorer.js"></script>
+    <script src="/js/metadata-viewer.js"></script>
+    <script src="/js/multi-selector.js"></script>
+    <script src="/js/main.js"></script>
+</body>
+
+</html>

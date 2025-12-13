@@ -1,0 +1,302 @@
+{
+  "Fantasy, Mythology & Speculative Worldbuilding": [
+    {
+      "description": "(epic magical worlds; kingdoms; enchanted forests; mythical ; grand castles; glowing magic; vast landscapes)[SUBJECT]",
+      "tag": "High-Fantasy-Style"
+    },
+    {
+      "description": "(fantasy cityscapes with glowing magic elements around; neon ;)[SUBJECT]",
+      "tag": "Urban-Fantasy-Style"
+    },
+    {
+      "description": "(rugged landscapes; dark forests; with armor; magical glowing enchanted artifacts)[SUBJECT]",
+      "tag": "Sorcery-Style"
+    },
+    {
+      "description": "(enchanted worlds; whimsical forests; magical ; pastel-jewel tones; surreal warmth , realistic)[SUBJECT]",
+      "tag": "Fairy-Tale-Fable-Style"
+    },
+    {
+      "description": "(knights; chivalry; stone castles; lush meadows; armored warriors; banners; candlelit halls)[SUBJECT]",
+      "tag": "Arthurian-Medieval-Fantasy-Style"
+    },
+    {
+      "description": "(magic-meets-steam tech; brass machinery; cogwork automatons; airships; Victorian clothing)[SUBJECT]",
+      "tag": "Steampunk-Fantasy-Style"
+    },
+    {
+      "description": "(morally ambiguous; gothic forests; crumbling castles; muted colors; sinister atmospheres)[SUBJECT]",
+      "tag": "Dark-Fantasy-Style"
+    },
+    {
+      "description": "(alien horror; non-Euclidean geometry; impossible landscapes; tentacles; fog; oppressive skies)[SUBJECT]",
+      "tag": "Lovecraftian-Cosmic-Horror-Style"
+    },
+    {
+      "description": "(dragons dominate; volcanic landscapes; treasure hoards; flying serpents; smoke and molten rivers)[SUBJECT]",
+      "tag": "Dragon-Lore-Style"
+    },
+    {
+      "description": "(planes dominated by fire, water, earth, air; dynamic lighting; elemental colors; floating landmasses)[SUBJECT]",
+      "tag": "Elemental-Magic-Worlds-Style"
+    },
+    {
+      "description": "(hellish landscapes; lava rivers; horned creatures; scorched terrain; red-black hues)[SUBJECT]",
+      "tag": "Demonic-Infernal-Realms-Style"
+    },
+    {
+      "description": "(heavenly worlds; floating temples; radiant skies; divine figures; golden-white illumination)[SUBJECT]",
+      "tag": "Celestial-Angelic-Realms-Style"
+    },
+    {
+      "description": "(collapsed magic; overgrown ruins; crumbled temples; scattered relics; fog and mist)[SUBJECT]",
+      "tag": "Post-Magic-Ruined-Civilization-Style"
+    },
+    {
+      "description": "(alien planes; floating landmasses; warped physics; impossible structures; surreal lighting)[SUBJECT]",
+      "tag": "Otherworld-Parallel-Dimensions-Style"
+    }
+  ],
+  "Micro-Aesthetics & Cultural Themes": [
+    {
+      "description": "(gothic intellectualism; aged libraries; mahogany; candlelit solitude; scholarly obsession; muted browns; rainy courtyards; introspection)[SUBJECT]",
+      "tag": "Dark-Academia-Style"
+    },
+    {
+      "description": "(soft scholastic warmth; linen textures; classical charm; ivory-beige palette , studying) [SUBJECT]",
+      "tag": "Light-Academia-Style"
+    },
+    {
+      "description": "( pastoral simplicity; meadows; rustic homesteads backgrounds;  florals; cozy domesticity; earth tones) [SUBJECT]",
+      "tag": "Cottagecore-Style"
+    },
+    {
+      "description": "(whimsical forests; glowing spores; ethereal wings; mushroom clusters; enchanted flora; pastel glimmers; magical atmosphere)[SUBJECT]",
+      "tag": "Fairycore-Style"
+    },
+    {
+      "description": "(earthy chaos; moss, roots, and stones; natural clutter; shiny trinkets; feral charm; wild textures)[SUBJECT]",
+      "tag": "Goblincore-Style"
+    },
+    {
+      "description": "(occult mysticism; runes; herbal bundles; arcane tools; candlelight; deep violets and blacks; ritualistic atmosphere)[SUBJECT]",
+      "tag": "Witchcore-Style"
+    },
+    {
+      "description": "(heavenly purity; feathers; clouds; halos; radiant light; soft white-pastels; serene figures)[SUBJECT]",
+      "tag": "Angelcore-Style"
+    },
+    {
+      "description": "(infernal intensity; red-black palette; horns; fire; shadow-heavy scenes; demonic motifs; primal menace)[SUBJECT]",
+      "tag": "Devilcore-Style"
+    },
+    {
+      "description": "(draconic majesty; volcanic landscapes; hoards; flying dragons; smoke and ember; mythical power)[SUBJECT]",
+      "tag": "Dragoncore-Style"
+    },
+    {
+      "description": "(chivalric symbols; steel armor; heraldic banners; medieval grandeur; fortified castles; battlefield honor)[SUBJECT]",
+      "tag": "Knightcore-Style"
+    },
+    {
+      "description": "(regal opulence; velvet and gold; ceremonial decor; grand halls; dynastic prestige; aristocratic poise)[SUBJECT]",
+      "tag": "Royalcore-Style"
+    },
+    {
+      "description": "(uncanny surrealism; extreme distorted pixelated spaces; intense big pixelation background; liminal oddities; dreamlike wrongness; emotional displacement realistic) [SUBJECT]",
+      "tag": "Weirdcore-Style"
+    },
+    {
+      "description": "(soft surrealism enviroments; floating objects; pastel haze; subconscious warped landscapes; drifting field of view on the background) [SUBJECT]",
+      "tag": "Dreamcore-Style"
+    },
+    {
+      "description": "(empty transitional giant spaces; flickering signs \"exit \"turn on and of ; monotone carpets; uncanny normalcy; sterile emptiness; threshold tension , backrooms) [SUBJECT]",
+      "tag": "Liminalcore-Style"
+    },
+    {
+      "description": "(hyper-glossy plastic toy shaped fantasy; saturated pinks; dollhouse perfection; playful extravagance; 90s glam elements) [SUBJECT]",
+      "tag": "Barbiecore-Style"
+    },
+    {
+      "description": "(early digital futurism; chrome sheen; translucent plastics; cyber-glam fashion)[SUBJECT]",
+      "tag": "Y2K-Style"
+    },
+    {
+      "description": "(dark romanticism; ornate fabrics; brooding patterns; somber symbols; melancholic elegance)[SUBJECT]",
+      "tag": "Gothic-Style"
+    },
+    {
+      "description": "(DIY urban grit; patched fabrics; spikes; counterculture rebellion; distressed materials)[SUBJECT]",
+      "tag": "Punk-Style"
+    },
+    {
+      "description": "(raw imperfection; worn fabrics; muted neutrals; urban decay cues; angsty authenticity)[SUBJECT]",
+      "tag": "Grunge-Style"
+    },
+    {
+      "description": "(street culture; bold ; urban fashion; expressive energy; gold accents)[SUBJECT]",
+      "tag": "Hip-Hop-Style"
+    },
+    {
+      "description": "(oversized silhouettes; layered textiles; logo-driven; contemporary urban sophistication)[SUBJECT]",
+      "tag": "Streetwear-Style"
+    },
+    {
+      "description": "(eclectic street fashion; vibrant patterns; layered accessories; whimsical maximalism)[SUBJECT]",
+      "tag": "Harajuku-Style"
+    },
+    {
+      "description": "(street athleticism; graffiti influence; loose silhouettes; scuffed textures; kinetic energy)[SUBJECT]",
+      "tag": "Skatecore-Style"
+    }
+  ],
+  "Moods & Conceptual States": [
+    {
+      "description": "(soft sorrow; muted colors; hazy distance; quiet reflection; subtle sadness; introspection)[SUBJECT]",
+      "tag": "Melancholy-Style"
+    },
+    {
+      "description": "(memory-tinged warmth; faded textures; retro elements; sentimental artifacts; comforting imperfection)[SUBJECT]",
+      "tag": "Nostalgia-Style"
+    },
+    {
+      "description": "(calm; balanced empty space; soft gradients; gentle luminosity; tranquil stillness)[SUBJECT]",
+      "tag": "Serenity-Style"
+    },
+    {
+      "description": "(intense uplift; radiant glow; vibrant saturation; ecstatic motion; transcendent joy)[SUBJECT]",
+      "tag": "Euphoria-Style"
+    },
+    {
+      "description": "(tension; sharp contrasts; unstable framing; restless asymmetry; unease)[SUBJECT]",
+      "tag": "Anxiety-Style"
+    },
+    {
+      "description": "(lone subjects; expansive emptiness; cold tones; existential detachment)[SUBJECT]",
+      "tag": "Isolation-Style"
+    },
+    {
+      "description": "(soft allure; intimate warmth; glowing highlights; affectionate tone)[SUBJECT]",
+      "tag": "Romantic-Style"
+    },
+    {
+      "description": "(playful unpredictability; childlike fantasy; colorful eccentricity; buoyant energy)[SUBJECT]",
+      "tag": "Whimsical-Style"
+    },
+    {
+      "description": "(hidden symbolism; veiled knowledge; subtle glow; ritual quiet; transcendent ambiguity)[SUBJECT]",
+      "tag": "Mystical-Style"
+    },
+    {
+      "description": "(dreamlike distortions; unexpected juxtapositions; altered spatial logic; uncanny elements)[SUBJECT]",
+      "tag": "Surreal-Style"
+    },
+    {
+      "description": "(soft diffusion; airy light; pale luminous accents; delicate textures; spiritual weightlessness)[SUBJECT]",
+      "tag": "Ethereal-Style"
+    },
+    {
+      "description": "(dark presence; decayed textures; death motifs; grim atmosphere)[SUBJECT]",
+      "tag": "Macabre-Style"
+    },
+    {
+      "description": "(structural oppression; muted metallic palette; societal collapse; bleak uniformity)[SUBJECT]",
+      "tag": "Dystopian-Style"
+    },
+    {
+      "description": "(orderly harmony; bright equilibrium; serene conceptual clarity; gentle futurism)[SUBJECT]",
+      "tag": "Utopian-Style"
+    },
+    {
+      "description": "(collapse-driven desolation; scorched fragments; dust-laden air; survival motifs)[SUBJECT]",
+      "tag": "Apocalyptic-Style"
+    },
+    {
+      "description": "(soft rising light; gentle color lift; subtle rebuilding; positive ascent)[SUBJECT]",
+      "tag": "Hopeful-Style"
+    },
+    {
+      "description": "(low-key richness; controlled darkness; selective highlights; emotionally saturated environments)[SUBJECT]",
+      "tag": "Cinematic-Moody-Style"
+    },
+    {
+      "description": "(disordered geometry; abrupt patterns; high motion intensity; visual instability)[SUBJECT]",
+      "tag": "Chaotic-Style"
+    },
+    {
+      "description": "(reduced visual information; clean geometry; narrow palette)[SUBJECT]",
+      "tag": "Minimalist-Style"
+    },
+    {
+      "description": "(dense layering; bold saturation; ornamental excess; overwhelming detail)[SUBJECT]",
+      "tag": "Maximalist-Style"
+    },
+    {
+      "description": "(uncanny hints; dim environments; subtle horror cues; emotional discomfort)[SUBJECT]",
+      "tag": "Creepy-Style"
+    },
+    {
+      "description": "(ghostly presence; echoing emptiness; spectral traces; somber tension)[SUBJECT]",
+      "tag": "Haunting-Style"
+    },
+    {
+      "description": "(soft joy; comforting warmth; gentle colors; approachable mood)[SUBJECT]",
+      "tag": "Wholesome-Style"
+    }
+  ],
+  "Narrative Worlds & Speculative Fiction": [
+    {
+      "description": "(neon megacities; high-tech/low-life; holographic signage; surveillance culture; chrome textures; rainy streets; dense urban sprawl; digital noise; nocturnal glow)[SUBJECT]",
+      "tag": "Cyberpunk-Style"
+    },
+    {
+      "description": "(utopian eco-future; nature-technology harmony; solar arrays; lush vegetation; communal optimism; clean white-gold light; regenerative landscapes; radiant natural illumination)[SUBJECT]",
+      "tag": "Solarpunk-Style"
+    },
+    {
+      "description": "(brass machinery; steam-powered tech; leather straps; exposed gears; Victorian-industrial fantasy; ornate craftsmanship; airships; retro-futurist optimism)[SUBJECT]",
+      "tag": "Steampunk-Style"
+    },
+    {
+      "description": "(80s sci-fi action aesthetic; neon pink/cyan grids; retro sun-set horizons; chrome ; cinematic silhouettes; nostalgic technology)[SUBJECT]",
+      "tag": "Synthwave-Style"
+    },
+    {
+      "description": "(digital nostalgia; pastel neon palette; 3D CGI surrealism; Greek-Roman busts; checkerboard floors; mall aesthetics; dreamy retro environment)[SUBJECT]",
+      "tag": "Vaporwave-Style"
+    },
+    {
+      "description": "(1930s-40s industrial dystopia; riveted metal; war machinery; deep reds and browns; zeppelins; authoritarian undertones; mechanical mass)[SUBJECT]",
+      "tag": "Dieselpunk-Style"
+    },
+    {
+      "description": "(1950s space-age optimism; ray-gun futurism; chrome diners; pastel nuclear colors; retro rockets; atomic diagrams; mid-century modern futurism)[SUBJECT]",
+      "tag": "Atompunk-Style"
+    },
+    {
+      "description": "(genetic modification dystopia; organic wet-tech; petri dishes; bioengineered organisms; fleshy textures; medical-lab aesthetic; body-horror undertones)[SUBJECT]",
+      "tag": "Biopunk-Style"
+    },
+    {
+      "description": "(futurism fused with African culture; geometric patterns; cosmic motifs; radiant textiles; ancestral mythology; empowered aesthetic; advanced tech)[SUBJECT]",
+      "tag": "Afrofuturism-Style"
+    },
+    {
+      "description": "(existential dread; non-Euclidean geometry; dark voids; ancient entities; distorted scale; oppressive atmospheres; unknowable vastness)[SUBJECT]",
+      "tag": "Cosmic-Horror-Style"
+    },
+    {
+      "description": "(civilization in ruins; scavenged survivalism; dust and rust; decayed infrastructure; abandoned vehicles; desolate landscapes; reclaimed nature)[SUBJECT]",
+      "tag": "Post-Apocalyptic-Style"
+    },
+    {
+      "description": "(barren devastation; sand-blasted terrain; skeletal remains; cracked earth; minimal vegetation; wind erosion; extreme isolation)[SUBJECT]",
+      "tag": "Wasteland-Style"
+    },
+    {
+      "description": "(grand interstellar adventure; ornate starships; colorful nebulas; alien civilizations; heroic scale; fleet battles; sweeping cosmic vistas)[SUBJECT]",
+      "tag": "Space-Opera-Style"
+    }
+  ]
+}

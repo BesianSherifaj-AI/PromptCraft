@@ -1,0 +1,410 @@
+{
+  "HISTORICAL ART MOVEMENTS": [
+    {
+      "tag": "Renaissance-Style",
+      "description": "(Classical realism with precision, balanced composition, sfumato transitions, harmonious-proportions, and naturalistic lighting ) [SUBJECT]"
+    },
+    {
+      "tag": "Baroque-style",
+      "description": "(Dramatic chiaroscuro, dynamic poses, rich detail, theatrical emotions, heavy contrast, and a sense of grandeur and movement) [SUBJECT]"
+    },
+    {
+      "tag": "Rococo-paint-style",
+      "description": "(Ornate decorative details , soft glowing light, delicate flowing shapes, intricate patterns, graceful , oil painting, soft brushstrokes, visible brush texture, painterly style 1700s-1800s, fine detail, luminous lighting ) [SUBJECT]"
+    },
+    {
+      "tag": "Neoclassical-paint-style",
+      "description": "(Austere compositions inspired by Roman and Greek art, heroic poses, moral seriousness, strong contour lines, balanced composition, oil painting, fine brushstrokes, visible brush texture, muted color palette, soft but precise lighting, painterly style 18th-19th century, realistic details) [SUBJECT]\n"
+    },
+    {
+      "tag": "Romanticism-style",
+      "description": "(Emotional intensity, dramatic landscapes, expressive brushwork, sublime nature, stormy lighting, and heightened atmosphere)"
+    },
+    {
+      "tag": "Impressionism-style",
+      "description": "(Visible short brushstrokes, emphasis on light changes, soft edges, plein-air feeling, broken color, Monet-like luminosity) [SUBJECT]"
+    },
+    {
+      "tag": "Pointillism-style",
+      "description": "(Image constructed only from countless distinct colored dots, optical color blending, crisp contours made only with micro-points) [SUBJECT]"
+    },
+    {
+      "tag": "Futurism",
+      "description": "(Dynamic movement lines, industrial energy, speed, overlapping forms suggesting motion and force) [SUBJECT]"
+    },
+    {
+      "tag": "Surrealism-art-style",
+      "description": "(Dreamlike surreal realistic painting, chromatic, intricate, bizarre paradoxical, illogical and symbolic, abstracted, metaphorical, impossible bizarre scenarios, morphing, melting, floating, levitating, twisting perspectives, juxtaposed enigmatic objects, mismatched improbable situations, fully shaped drawing = complete, clean spaces composition)\n[SUBJECT]\n[ENVIROMENT]"
+    },
+    {
+      "tag": "Expressionism-art-style",
+      "description": "(Distorted forms, exaggerated colors, emotional intensity, energetic strokes, subjective and psychological atmosphere) [SUBJECT]"
+    },
+    {
+      "tag": "Fauvism-art-style",
+      "description": "(Vivid unnatural colors, simplified forms, expressive painterly marks, raw emotional color fields) [SUBJECT]"
+    },
+    {
+      "tag": "Cubism-art-style",
+      "description": "(Fragmented geometry, multiple perspectives at once, abstract planar shapes, analytical structure, faceted construction) [SUBJECT]"
+    },
+    {
+      "tag": "Abstract-Expressionism",
+      "description": "(Spontaneous gestures, dynamic splashes, textured paint, emotional abstraction, Pollock-inspired energy) \n[SUBJECT]"
+    },
+    {
+      "tag": "Fresco-Painting",
+      "description": "(Ancient wall painting on wet plaster, matte earthy pigments, slightly desaturated, texture of aging wall, cracking plaster, renaissance feel) [SUBJECT]"
+    },
+    {
+      "tag": "Art-Nouveau-style",
+      "description": "(Flowing organic lines, decorative floral motifs, graceful curves, soft palettes, flat stylization inspired by Mucha) [SUBJECT]"
+    },
+    {
+      "tag": "Art-Deco-style",
+      "description": "(Geometric symmetry, flat , metallic accents, gold tones, streamlined elegance, luxury shapes, 1920s decorative styling) [SUBJECT]"
+    },
+    {
+      "tag": "Pop-Art",
+      "description": "(Bold comic-like colors, commercial imagery, flat tones, repetition, Warhol/Lichtenstein graphic aesthetic)\n[SUBJECT]"
+    },
+    {
+      "tag": "De-Stijl",
+      "description": "(Strict grids, black outlines, primary color rectangles, strong alignment, Mondrian-like abstraction) [SUBJECT]"
+    },
+    {
+      "tag": "Bauhaus-art",
+      "description": "(Functional geometry, clean industrial design, primary colors, minimalist structure , flat illustration, utilitarian visual language)\n[SUBJECT]"
+    },
+    {
+      "tag": "Dadaism",
+      "description": "(Absurdist collage, anti-art randomness, chaotic composition, satirical and nonsensical elements) [SUBJECT]"
+    },
+    {
+      "tag": "Op-Art",
+      "description": "(High-contrast optical illusions, repetitive patterns, moir\u00e9 effects, geometric distortions in black-and-white) [SUBJECT]"
+    }
+  ],
+  "TRADITIONAL MEDIA": [
+    {
+      "tag": "Oil-Painting",
+      "description": "(Thick textured brushstrokes, impasto depth, smooth color blending, glossy surface, classical painted look) [SUBJECT]"
+    },
+    {
+      "tag": "Watercolor",
+      "description": "(Translucent washes, wet-on-wet diffusion, soft gradients, delicate splatter effects, fluid edges) [SUBJECT]"
+    },
+    {
+      "tag": "Charcoal-Drawing",
+      "description": "(Smudged textures, deep blacks, high contrast shading, gritty tonal transitions, expressive strokes) [SUBJECT]"
+    },
+    {
+      "tag": "Ink-Wash-Sumi-e",
+      "description": "(Black ink gradients, fluid brush control, minimalist strokes, controlled density variation, negative space emphasis) [SUBJECT]"
+    },
+    {
+      "tag": "Pencil-Sketch",
+      "description": "(Graphite texture, cross-hatching, loose outlines, soft shading, hand-drawn realism or rough study feel) [SUBJECT]"
+    },
+    {
+      "tag": "Pastel-Art",
+      "description": "(Soft powdery pigment, visible grain, vibrant matte colors, gentle blending, velvety surface, big pastel strokes)\n[SUBJECT]"
+    },
+    {
+      "tag": "Linocut-Woodcut",
+      "description": "(Bold carved shapes, thick black outlines, high contrast, stamping-like irregularities, wood-block-print texture) [SUBJECT]"
+    },
+    {
+      "tag": "Scratchboard",
+      "description": "(White lines carved from black surface, crisp highlights, dramatic contrast, engraved illustration style) [SUBJECT]"
+    },
+    {
+      "tag": "Cyanotype",
+      "description": "(Blue-and-white photogram appearance, soft silhouettes, sun-print textures, analog exposure softness) [SUBJECT]"
+    },
+    {
+      "tag": "Gouache-style",
+      "description": "(Opaque matte pigments, flat multilayered overlaping water colors, chalky texture, crisp edges with occasional brush grain,uncoloared areas gaps, detailed) [SUBJECT]"
+    },
+    {
+      "tag": "Aquarelle-style",
+      "description": "(French watercolor style with luminous washes, flowing light, airy transparency, delicate hue shifts)\n[SUBJECT]"
+    },
+    {
+      "tag": "Tempera-Painting",
+      "description": "(Mattemed pigments bound with egg yolk, precise small strokes, bright long-lasting coloration)\n[SUBJECT]"
+    },
+    {
+      "tag": "Fresnel-Painting",
+      "description": "(Luminous wall-painting technique, mineral pigments, durable surface, soft radiance, fresco-like blending)\n[SUBJECT]"
+    },
+    {
+      "tag": "Line-Art",
+      "description": "(Clean uniform outlines, no shading, flat cartoon-like contour emphasis, coloring-book simplicity) [SUBJECT]"
+    },
+    {
+      "tag": "Ligne-Claire-style",
+      "description": "(tintin-cartoon-clear linework, thick uniform outlines, bright flat coloring, no gradients, tidy composition, sharp details, simplified geometry)\n[SUBJECT]"
+    },
+    {
+      "tag": "Vector-Art",
+      "description": "(Sharp mathematically perfect edges, scalable flat shapes, smooth gradients or solids, digital precision) [SUBJECT]"
+    },
+    {
+      "tag": "Flat-Design",
+      "description": "(Minimalist shapes, no gradients, corporate visual language, clean geometry, simple color schemes) [SUBJECT]"
+    },
+    {
+      "tag": "Risograph-style",
+      "description": "(rough ink grain texture, vibrant spot inks, translucent ink overlays, misaligned dual-color overprint, overlapping plates/blocks, layered screen-print aesthetic, halftone dot/grain texture, uneven ink coverage, slight smudging,illustration,made with shapes that overlap)\n[SUBJECT]"
+    },
+    {
+      "tag": "Halftone",
+      "description": "(Dot-pattern shading, vintage comic newspaper texture, variable dot density forming tones) [SUBJECT]"
+    },
+    {
+      "tag": "Vintage-Botanical",
+      "description": "(Scientific illustration style, high detail, thin ink lines, watercolor tint, isolated on white) [SUBJECT]"
+    },
+    {
+      "tag": "Fantasy-Storybook",
+      "description": "(Whimsical linework, antique muted palette, intricate details, Arthur Rackham fairy-tale aesthetic) [SUBJECT]"
+    },
+    {
+      "tag": "Medieval-Illumination",
+      "description": "(Gold leaf accents, ornate borders, parchment texture, flat decorative scenes, marginalia flourishes) [SUBJECT]"
+    },
+    {
+      "tag": "Sticker-Art",
+      "description": "(Thick white outlines, die-cut silhouette, flat bold colors, clean graphic cutout style) [SUBJECT]"
+    },
+    {
+      "tag": "Graffiti-Street-Art",
+      "description": "(Spray-paint textures, bold tagging, drips, stencils, urban wall aesthetic, vivid street colors) [SUBJECT]"
+    },
+    {
+      "tag": "Tattoo-Flash",
+      "description": "(Bold black outlines, classic shading, isolated motif, traditional tattoo palette and form) [SUBJECT]"
+    },
+    {
+      "tag": "Chalk-Art",
+      "description": "(Vibrant powdery pastels on rough asphalt, temporary street-art look, soft smudging and grain) [SUBJECT]"
+    },
+    {
+      "tag": "Scientific-Illustration",
+      "description": "(Precise technical details, cross-sections, labeled structures, accurate rendering for study) [SUBJECT]"
+    }
+  ],
+  "ANIMATION & COMICS": [
+    {
+      "tag": "Anime",
+      "description": "(Stylized Japanese animation look, clean lines, expressive eyes, flat shading, bright colors) [SUBJECT]"
+    },
+    {
+      "tag": "Studio-Ghibli",
+      "description": "(Lush painterly backgrounds, soft color harmony, expressive rounded character design, magical warmth) [SUBJECT]"
+    },
+    {
+      "tag": "Manga",
+      "description": "(Black-and-white ink style, screen tones, dynamic speed lines, stylized anatomy, crisp line weights) [SUBJECT]"
+    },
+    {
+      "tag": "Western-Comic-Book",
+      "description": "(Bold inks, vivid colors, dynamic poses, Ben-Day dots, heroic exaggerated action) [SUBJECT]"
+    },
+    {
+      "tag": "Noir-Graphic-Novel",
+      "description": "(Extreme black-and-white contrast, harsh shadows, gritty atmosphere, Frank Miller storytelling tone) [SUBJECT]"
+    },
+    {
+      "tag": "Cel-Shaded",
+      "description": "(Flat color regions with hard-edged shadows, toon-outlined look, simplified lighting) [SUBJECT]"
+    },
+    {
+      "tag": "Chibi",
+      "description": "(Super-deformed proportions, oversized heads, tiny bodies, exaggerated cuteness) [SUBJECT]"
+    },
+    {
+      "tag": "Rotoscoping",
+      "description": "(Fluid lifelike movement recreated through traced live-action, smooth outlines, cartoon realistic motion) [SUBJECT]"
+    },
+    {
+      "tag": "80s-Retro-Anime",
+      "description": "(Classic OVA aesthetic, cel-shaded with visible film grain, vibrant but limited color palette, heavy outlines, character designs often feature high contrast hair and large, glossy eyes, Akira or Macross inspired) [SUBJECT]\n"
+    },
+    {
+      "tag": "Seinen-Anime-Style",
+      "description": "(Mature themes, more realistic proportions and detailed anatomy, muted or darker color palette, heavier use of shadows and atmospheric lighting, complex, gritty linework, Ghost in the Shell or Berserk influence)[SUBJECT]\n"
+    },
+    {
+      "tag": "Makoto-Shinkai-style",
+      "description": "(Hyper-detailed backgrounds, photorealistic environments, glowing skies, dramatic lens flare, soft golden-hour or sunset lighting, vibrant color saturation, deep feeling of nostalgia/longing)\n[SUBJECT]\n"
+    },
+    {
+      "tag": "Hanna-Barbera-Style",
+      "description": "(Limited animation technique, repeated backgrounds, simplified character designs with bold colors, thick outlines, often used for adventure or Scooby-Doo-esque mystery genres)\n[SUBJECT]\n"
+    },
+    {
+      "tag": "90s-Nickelodeon-Cartoon",
+      "description": "(Quirky, often grotesque or exaggerated character designs, vibrant and sometimes jarring color palettes, slightly grungy or \"ugly\" aesthetic, bold outlines, highly expressive and non-traditional animation)\n[SUBJECT]\n"
+    },
+    {
+      "tag": "Golden-Age-Cartoon",
+      "description": "( highly elastic and bouncy characters, pie-cut eyes, simple circular limbs with white gloves, low detail on backgrounds, black and white or limited color, exaggerated squash and stretch movement)\n[SUBJECT]\n"
+    },
+    {
+      "tag": "Rubber-Hose-Animation",
+      "description": "(Bouncy, limbless limbs, circular forms, exaggerated elastic motion, vintage 1920s\u20131930s cartoon fluidity, simple color palette, whimsical expressive poses) [SUBJECT]"
+    },
+    {
+      "tag": "New Prompt",
+      "description": "Description..."
+    },
+    {
+      "tag": "New Prompt",
+      "description": "Description..."
+    },
+    {
+      "tag": "New Prompt",
+      "description": "Description..."
+    }
+  ],
+  "3D / DIGITAL RENDERING": [
+    {
+      "tag": "AAA-Game-Realism",
+      "description": "(3D High-texture PBR materials, complex cgi lighting)\n[SUBJECT]"
+    },
+    {
+      "tag": "3D-Render",
+      "description": "(Ray-traced reflections, global illumination, Octane/Redshift-like realism, polished CG materials) [SUBJECT]"
+    },
+    {
+      "tag": "3D-Disney-style",
+      "description": "(3D pixar rendering, textures,volumetric depth, natural colors,  visible, detailed  materials, realistic anatomy / object proportions) \n[SUBJECT]"
+    },
+    {
+      "tag": "Hand-Painted-Texture",
+      "description": "(Visible brushstrokes on 3D surfaces, stylized game look, color-blocked shading, crafted feel) [SUBJECT]"
+    },
+    {
+      "tag": "Stylized-3D-(Blizzard-like)",
+      "description": "(Exaggerated forms, hand-painted textures, high contrast)\n[SUBJECT]"
+    },
+    {
+      "tag": "3D-isometric-style",
+      "description": "(Isometric view, objects and characters drawn at a consistent 30-degree angle, precise geometric proportions, clean edges, detailed textures, vibrant but balanced colors, soft lighting and shadows, clear depth perception, minimal perspective distortion, digital 3D render look) [SUBJECT]"
+    },
+    {
+      "tag": "Low-Poly",
+      "description": "(Geometric faceted mesh, sharp polygonal planes, minimal textures, simplified forms) [SUBJECT]"
+    },
+    {
+      "tag": "Claymation-Aardman",
+      "description": "(Plasticine texture, thumbprints visible on surface, rounded bulky shapes, stop-motion lighting, physical set background) [SUBJECT]\n"
+    },
+    {
+      "tag": "Polymer-clay-model",
+      "description": "(sculpey figure, smooth matte texture, hand-sculpted miniature) [SUBJECT]"
+    },
+    {
+      "tag": "Procedural-Generation",
+      "description": "(Algorithmic patterns, endlessly detailed textures, mathematically driven repetition and structure) [SUBJECT]"
+    },
+    {
+      "tag": "Voxel-Art",
+      "description": "(3D pixel-cube construction, blocky volumetric design, Minecraft-like structure) [SUBJECT]"
+    },
+    {
+      "tag": "Isometric",
+      "description": "(Three-quarter perspective from a corner view, equal axes, illustration) [SUBJECT]"
+    },
+    {
+      "tag": "Pixel-art",
+      "description": "(dense pixel detail, 1px clean edging, micro-dither shading, small-palette color control, sharp geometric pixel shapes, layered tile-sprite construction)\n[SUBJECT]"
+    }
+  ],
+  "AESTHETIC GENRES": [
+    {
+      "tag": "Needle-Felt",
+      "description": "(Fuzzy wool texture, soft sculpted shapes, miniature craft aesthetic with visible fibers)\n[SUBJECT]"
+    },
+    {
+      "tag": "Quilling-art",
+      "description": "(rolled paper sculpture, delicate paper strips, intricate filigree paper) [SUBJECT]"
+    },
+    {
+      "tag": "Kirigami-paper-art",
+      "description": "(pop-up book style, cut and folded paper, paper-lace silhouette) [SUBJECT]"
+    },
+    {
+      "tag": "Amigurumi-doll",
+      "description": "[crocheted toy, yarn texture, visible stitching, chibi plushie] [SUBJECT]"
+    },
+    {
+      "tag": "Pyrography-art",
+      "description": "(wood burning detail, etched wood surface, rustic carving)\n[SUBJECT]"
+    },
+    {
+      "tag": "FrameBeadworkpattern",
+      "description": "(intricate beaded design, segmented texture, reflective glass beads, shaped beadwork)\n[SUBJECT]"
+    },
+    {
+      "tag": "Stained-Glass",
+      "description": "(Bold black lines forming the contours, translucent, jeweled colors, light streaming through the colored panes, segmented composition, religious or gothic subject matter, lead-came framing, luminous radiance)\n[SUBJECT]"
+    },
+    {
+      "tag": "Mosaic",
+      "description": "(Image composed entirely of small, individually colored square or irregular tiles (tesserae), deep grouted lines, ancient Byzantine or Roman texture, slightly uneven surface, rich stone colors, highly detailed)\n[SUBJECT]"
+    },
+    {
+      "tag": "Encaustic-Painting",
+      "description": "(Layers of heated beeswax mixed with pigments, luminous textured surfaces, warm radiant tones, subtle translucency, rich surface depth, tactile brushstrokes)  \n[SUBJECT]"
+    },
+    {
+      "tag": "Ukiyo-e-Inspired",
+      "description": "(Bold woodblock outlines, flat areas of color, dynamic Japanese print composition, stylized figures, ornamental patterns, Edo-period aesthetic, narrative storytelling)\n[SUBJECT]"
+    },
+    {
+      "tag": "Scribble-Art-Style",
+      "description": "(Loose spontaneous linework, continuous overlapping strokes, chaotic energetic contours, sketchy hand-drawn texture, abstract or semi-representational forms, dynamic movement, visible pressure variation, raw expressive mark-making with no clean outlines) [SUBJECT]"
+    },
+    {
+      "tag": "Memphis-style",
+      "description": "(80s geometric chaos, squiggles, bright neon, asymmetric shapes, playful retro abstraction vector) [SUBJECT]"
+    },
+    {
+      "tag": "Embroidery-Cross-Stitch",
+      "description": "(Thread-based image with stitched patterns, woven texture, pixel-like handmade appearance)[SUBJECT]"
+    },
+    {
+      "tag": "Technical-Blueprint-style",
+      "description": "(White-line diagrams on blue boards, engineering precision)\n[SUBJECT]"
+    },
+    {
+      "tag": "Paper-Cutout-Layered",
+      "description": "(Diorama style, stacked layers of paper, depth via drop shadows, simple shapes, craft paper texture, tunnel book aesthetic)\n[SUBJECT]"
+    }
+  ],
+  "EXTRA STYLES": [
+    {
+      "tag": "Chinoiserie-style",
+      "description": "(European interpretation of Chinese artistic traditions, ornate detailed landscapes, delicate figures, pagodas, porcelain blue and white color scheme, gold accents, highly decorative elegance)\n[SUBJECT]"
+    },
+    {
+      "tag": "Mughal-Miniature",
+      "description": "(Intricate hand-painted detail, vibrant jewel-toned colors, gold leaf highlights, flat perspective, highly stylized figures and nature, traditional South Asian court art)\n[SUBJECT]\n"
+    },
+    {
+      "tag": "Caricature-Art-Exaggerated",
+      "description": "(Focuses on highly stylized and humorous exaggeration of facial features and body proportions to emphasize personality traits, bold outlines and dynamic line work)\n[SUBJECT]\n"
+    },
+    {
+      "tag": "Photorealistic-Pencil-Drawing",
+      "description": "(Extreme level of graphite detail that mimics a photograph, smooth shading with almost no visible pencil texture, hyperrealism in monochrome, fine, precise rendering)\n[SUBJECT]\n"
+    },
+    {
+      "tag": "Newspaper-Comic-Strip-Style",
+      "description": "(Simple, ink-drawn figures, often with thick black lines, minimal use of color (often only four-color process or black and white), small panel composition, focus on dialogue and gag setup)\n[Main-subject]\n\"text\"\n\"text\" \n\"text\"\n[SUBJECT]\n"
+    }
+  ]
+}
