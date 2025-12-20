@@ -14,7 +14,7 @@ Lights Effects Collection
 Lights View Different prompts for lights control
 
 Themes Library
-Themes View *Most used themes prompts for enviroment composition *
+Themes View *Most used themes prompts for environment composition *
 
 Materials Library
 Materials View Collection of material and texture prompts for realistic rendering
