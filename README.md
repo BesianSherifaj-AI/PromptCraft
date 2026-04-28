@@ -1,5 +1,6 @@
 🎨 PromptForge
 A visual prompt management system for AI image generation. Organize, browse, and manage artistic style prompts with visual references in an intuitive interface.
+![PromptForge Interface](https://github.com/BesianSherifaj-AI/PromptCraft/raw/main/Preview/Untitled1.png)
 
 PromptForge Interface Python Flask
 
